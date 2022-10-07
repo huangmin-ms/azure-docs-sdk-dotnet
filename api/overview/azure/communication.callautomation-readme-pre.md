@@ -1,6 +1,6 @@
 ---
 title: Azure Communication CallAutomation client library for .NET
-keywords: Azure, dotnet, SDK, API, Azure.Communication.CallingServer, communication
+keywords: Azure, dotnet, SDK, API, Azure.Communication.CallAutomation, communication
 author: acsdevx-msft
 ms.author: acsdevx-msft
 ms.date: 10/07/2022
@@ -20,7 +20,7 @@ This package contains a C# SDK for Azure Communication Call Automation.
 Install the Azure Communication CallAutomation client library for .NET with [NuGet][nuget]:
 
 ```dotnetcli
-dotnet add package Azure.Communication.CallingServer --prerelease
+dotnet add package Azure.Communication.CallAutomation --prerelease
 ``` 
 
 ### Prerequisites
@@ -35,7 +35,7 @@ To create a new Communication Service, you can use the [Azure Portal][communicat
 ```C#
 using System;
 using System.Collections.Generic;
-using Azure.Communication.CallingServer;
+using Azure.Communication.CallAutomation;
 ```
 
 ### Authenticate the client
@@ -51,6 +51,40 @@ Or alternatively using a valid Active Directory token.
 var endpoint = new Uri("https://my-resource.communication.azure.com");
 TokenCredential tokenCredential = new DefaultAzureCredential();
 var client = new CallAutomationClient(endpoint, tokenCredential);
+```
+
+### Idempotent Requests
+An operation is idempotent if it can be performed multiple times and have the same result as a single execution.
+
+The following operations can be idempotent if the user provides valid repeatility parameters:
+- `AnswerCall`
+- `RedirectCall`
+- `RejectCall`
+- `CreateCall`
+- `HangUp` when terminating the call for everyone, ie. `forEveryone` parameter is set to `true`.
+- `TransferCallToParticipant`
+- `AddParticipants`
+- `RemoveParticipants`
+
+If no repeatability parameters are set, then operations are treated as new requests every time.
+
+The two repeatability parameters are `repeatabilityRequestId` and `repeatabilityFirstSent` and can be found in
+either the operation's constructor as optional parameters or the operation's `Options` class. Two or more requests
+are considered the same request **if and only if** both repeatability parameters are the same.
+- `repeatabilityRequestId`: an opaque string representing a client-generated unique identifier for the request.
+It is a version 4 (random) UUID.
+- `repeatabilityFirstSent`: The value should be the date and time at which the request was **first** created.
+
+To set repeatability parameters, see below C# code snippet as an example:
+```C#
+var createCallOptions = new CreateCallOptions(callSource, new CommunicationIdentifier[] { target }, new Uri("https://exmaple.com/callback")) {
+    RepeatabilityRequestId = Guid.NewGuid(),
+    RepeatabilityFirstSent = DateTimeOffset.Now,
+};
+CreateCallResult response1 = await callAutomationClient.CreateCallAsync(createCallOptions);
+await Task.Delay(5000);
+CreateCallResult response2 = await callAutomationClient.CreateCallAsync(createCallOptions);
+// response1 and response2 will have the same CallConnectionId as they have the same reapeatability parameters which means that the CreateCall operation was only executed once.
 ```
 
 ## Examples
@@ -85,8 +119,8 @@ Your app will receive mid-connection call back events via the callbackEndpoint y
         {
             if (events != null)
             {
-                // Helper function to parse CloudEvent to a CallingServer event.
-                CallAutomationEventBase callBackEvent = EventParser.Parse(events.FirstOrDefault());
+                // Helper function to parse CloudEvent to a CallAutomation event.
+                CallAutomationEventBase callBackEvent = CallAutomationEventParser.Parse(events.FirstOrDefault());
             
                 switch (callBackEvent)
                 {
@@ -148,5 +182,5 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [communication_resource_create_net]: /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-net
 [product_docs]: /azure/communication-services/overview
 [nuget]: https://www.nuget.org/
-[source]: https://github.com/Azure/azure-sdk-for-net/tree/a20e269162fa88a43e5ba0e5bb28f2e76c74a484/sdk/communication/Azure.Communication.CallingServer/src
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/communication/Azure.Communication.CallAutomation/src
 
