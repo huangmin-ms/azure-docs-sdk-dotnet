@@ -1,0 +1,14 @@
+{
+  "Name": "Azure.ResourceManager.DataProtection",
+  "Version": "1.0.0-alpha.20221010.1",
+  "DevVersion": "1.0.0-alpha.20221010.1",
+  "DirectoryPath": "sdk/dataprotection/Azure.ResourceManager.DataProtection",
+  "ServiceDirectory": "dataprotection",
+  "ReadMePath": "sdk/dataprotection/Azure.ResourceManager.DataProtection/README.md",
+  "ChangeLogPath": "sdk/dataprotection/Azure.ResourceManager.DataProtection/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.DataProtection",
+  "ReleaseStatus": "Unreleased"
+}
