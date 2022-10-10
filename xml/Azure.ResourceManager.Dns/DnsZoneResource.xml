@@ -334,67 +334,67 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetAllRecordSets">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt; GetAllRecordSets (int? top = default, string recordSetNameSuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Dns.RecordSetData&gt; GetAllRecordSets(valuetype System.Nullable`1&lt;int32&gt; top, string recordSetNameSuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetAllRecordSets(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllRecordSets (Optional top As Nullable(Of Integer) = Nothing, Optional recordSetNameSuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RecordSetData)" />
-      <MemberSignature Language="F#" Value="abstract member GetAllRecordSets : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;&#xA;override this.GetAllRecordSets : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;" Usage="dnsZoneResource.GetAllRecordSets (top, recordSetNameSuffix, cancellationToken)" />
+    <Member MemberName="GetAllRecordData">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordData&gt; GetAllRecordData (int? top = default, string recordsetnamesuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Dns.RecordData&gt; GetAllRecordData(valuetype System.Nullable`1&lt;int32&gt; top, string recordsetnamesuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetAllRecordData(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllRecordData (Optional top As Nullable(Of Integer) = Nothing, Optional recordsetnamesuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RecordData)" />
+      <MemberSignature Language="F#" Value="abstract member GetAllRecordData : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordData&gt;&#xA;override this.GetAllRecordData : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordData&gt;" Usage="dnsZoneResource.GetAllRecordData (top, recordsetnamesuffix, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="top" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="recordSetNameSuffix" Type="System.String" />
+        <Parameter Name="recordsetnamesuffix" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="top"> The maximum number of record sets to return. If not specified, returns up to 100 record sets. </param>
-        <param name="recordSetNameSuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
+        <param name="recordsetnamesuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all record sets in a DNS zone.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/all
-            Operation Id: RecordSets_ListAllByDnsZone
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/recordsets
+            Operation Id: RecordSets_ListByDnsZone
             </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Dns.RecordSetData" /> that may take multiple service requests to iterate over. </returns>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.Dns.RecordData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetAllRecordSetsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt; GetAllRecordSetsAsync (int? top = default, string recordSetNameSuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Dns.RecordSetData&gt; GetAllRecordSetsAsync(valuetype System.Nullable`1&lt;int32&gt; top, string recordSetNameSuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetAllRecordSetsAsync(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllRecordSetsAsync (Optional top As Nullable(Of Integer) = Nothing, Optional recordSetNameSuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RecordSetData)" />
-      <MemberSignature Language="F#" Value="abstract member GetAllRecordSetsAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;&#xA;override this.GetAllRecordSetsAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;" Usage="dnsZoneResource.GetAllRecordSetsAsync (top, recordSetNameSuffix, cancellationToken)" />
+    <Member MemberName="GetAllRecordDataAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordData&gt; GetAllRecordDataAsync (int? top = default, string recordsetnamesuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Dns.RecordData&gt; GetAllRecordDataAsync(valuetype System.Nullable`1&lt;int32&gt; top, string recordsetnamesuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetAllRecordDataAsync(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAllRecordDataAsync (Optional top As Nullable(Of Integer) = Nothing, Optional recordsetnamesuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RecordData)" />
+      <MemberSignature Language="F#" Value="abstract member GetAllRecordDataAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordData&gt;&#xA;override this.GetAllRecordDataAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordData&gt;" Usage="dnsZoneResource.GetAllRecordDataAsync (top, recordsetnamesuffix, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="top" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="recordSetNameSuffix" Type="System.String" />
+        <Parameter Name="recordsetnamesuffix" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="top"> The maximum number of record sets to return. If not specified, returns up to 100 record sets. </param>
-        <param name="recordSetNameSuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
+        <param name="recordsetnamesuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all record sets in a DNS zone.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/all
-            Operation Id: RecordSets_ListAllByDnsZone
+            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/recordsets
+            Operation Id: RecordSets_ListByDnsZone
             </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Dns.RecordSetData" /> that may take multiple service requests to iterate over. </returns>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.Dns.RecordData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -933,70 +933,6 @@
       <Docs>
         <summary> Gets a collection of PtrRecordResources in the DnsZone. </summary>
         <returns> An object representing collection of PtrRecordResources and their operations over a PtrRecordResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRecordSets">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt; GetRecordSets (int? top = default, string recordsetnamesuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Dns.RecordSetData&gt; GetRecordSets(valuetype System.Nullable`1&lt;int32&gt; top, string recordsetnamesuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetRecordSets(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecordSets (Optional top As Nullable(Of Integer) = Nothing, Optional recordsetnamesuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RecordSetData)" />
-      <MemberSignature Language="F#" Value="abstract member GetRecordSets : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;&#xA;override this.GetRecordSets : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;" Usage="dnsZoneResource.GetRecordSets (top, recordsetnamesuffix, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="top" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="recordsetnamesuffix" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="top"> The maximum number of record sets to return. If not specified, returns up to 100 record sets. </param>
-        <param name="recordsetnamesuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Lists all record sets in a DNS zone.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/recordsets
-            Operation Id: RecordSets_ListByDnsZone
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.Dns.RecordSetData" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRecordSetsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt; GetRecordSetsAsync (int? top = default, string recordsetnamesuffix = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Dns.RecordSetData&gt; GetRecordSetsAsync(valuetype System.Nullable`1&lt;int32&gt; top, string recordsetnamesuffix, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dns.DnsZoneResource.GetRecordSetsAsync(System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecordSetsAsync (Optional top As Nullable(Of Integer) = Nothing, Optional recordsetnamesuffix As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RecordSetData)" />
-      <MemberSignature Language="F#" Value="abstract member GetRecordSetsAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;&#xA;override this.GetRecordSetsAsync : Nullable&lt;int&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;" Usage="dnsZoneResource.GetRecordSetsAsync (top, recordsetnamesuffix, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Dns.RecordSetData&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="top" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="recordsetnamesuffix" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="top"> The maximum number of record sets to return. If not specified, returns up to 100 record sets. </param>
-        <param name="recordsetnamesuffix"> The suffix label of the record set name that has to be used to filter the record set enumerations. If this parameter is specified, Enumeration will return only records that end with .&lt;recordSetNameSuffix&gt;. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Lists all record sets in a DNS zone.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/recordsets
-            Operation Id: RecordSets_ListByDnsZone
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.Dns.RecordSetData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

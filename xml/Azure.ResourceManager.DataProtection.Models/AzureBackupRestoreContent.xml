@@ -1,0 +1,117 @@
+<Type Name="AzureBackupRestoreContent" FullName="Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent">
+  <TypeSignature Language="C#" Value="public abstract class AzureBackupRestoreContent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AzureBackupRestoreContent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AzureBackupRestoreContent" />
+  <TypeSignature Language="F#" Value="type AzureBackupRestoreContent = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Azure backup restore request
+            Please note <see cref="T:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtection.Models.AzureBackupRecoveryPointBasedRestoreRequest" />, <see cref="T:Azure.ResourceManager.DataProtection.Models.AzureBackupRecoveryTimeBasedRestoreRequest" /> and <see cref="T:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreWithRehydrationRequest" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AzureBackupRestoreContent (Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase restoreTargetInfo, Azure.ResourceManager.DataProtection.Models.SourceDataStoreType sourceDataStoreType);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase restoreTargetInfo, valuetype Azure.ResourceManager.DataProtection.Models.SourceDataStoreType sourceDataStoreType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.#ctor(Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase,Azure.ResourceManager.DataProtection.Models.SourceDataStoreType)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (restoreTargetInfo As RestoreTargetInfoBase, sourceDataStoreType As SourceDataStoreType)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent : Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase * Azure.ResourceManager.DataProtection.Models.SourceDataStoreType -&gt; Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent" Usage="new Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent (restoreTargetInfo, sourceDataStoreType)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="restoreTargetInfo" Type="Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase" />
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtection.Models.SourceDataStoreType" />
+      </Parameters>
+      <Docs>
+        <param name="restoreTargetInfo">
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtection.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtection.Models.RestoreFilesTargetInfo" /> and <see cref="P:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.RestoreTargetInfo" />.
+            </param>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <summary> Initializes a new instance of AzureBackupRestoreContent. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="restoreTargetInfo" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreTargetInfo">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase RestoreTargetInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase RestoreTargetInfo" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.RestoreTargetInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RestoreTargetInfo As RestoreTargetInfoBase" />
+      <MemberSignature Language="F#" Value="member this.RestoreTargetInfo : Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase" Usage="Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.RestoreTargetInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtection.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtection.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtection.Models.RestoreFilesTargetInfo" /> and <see cref="P:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.RestoreTargetInfo" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceDataStoreType">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.SourceDataStoreType SourceDataStoreType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.ResourceManager.DataProtection.Models.SourceDataStoreType SourceDataStoreType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.SourceDataStoreType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceDataStoreType As SourceDataStoreType" />
+      <MemberSignature Language="F#" Value="member this.SourceDataStoreType : Azure.ResourceManager.DataProtection.Models.SourceDataStoreType" Usage="Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.SourceDataStoreType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.SourceDataStoreType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the type of the source data store. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceResourceId">
+      <MemberSignature Language="C#" Value="public string SourceResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceResourceId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.SourceResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceResourceId As String" />
+      <MemberSignature Language="F#" Value="member this.SourceResourceId : string with get, set" Usage="Azure.ResourceManager.DataProtection.Models.AzureBackupRestoreContent.SourceResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Fully qualified Azure Resource Manager ID of the datasource which is being recovered. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

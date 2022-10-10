@@ -1,0 +1,85 @@
+<Type Name="ScheduleBasedTriggerContext" FullName="Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext">
+  <TypeSignature Language="C#" Value="public class ScheduleBasedTriggerContext : Azure.ResourceManager.DataProtection.Models.TriggerContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScheduleBasedTriggerContext extends Azure.ResourceManager.DataProtection.Models.TriggerContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class ScheduleBasedTriggerContext&#xA;Inherits TriggerContext" />
+  <TypeSignature Language="F#" Value="type ScheduleBasedTriggerContext = class&#xA;    inherit TriggerContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.DataProtection.Models.TriggerContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Schedule based trigger context. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ScheduleBasedTriggerContext (Azure.ResourceManager.DataProtection.Models.BackupSchedule schedule, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt; taggingCriteria);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.DataProtection.Models.BackupSchedule schedule, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt; taggingCriteria) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext.#ctor(Azure.ResourceManager.DataProtection.Models.BackupSchedule,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataProtection.Models.TaggingCriteria})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (schedule As BackupSchedule, taggingCriteria As IEnumerable(Of TaggingCriteria))" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext : Azure.ResourceManager.DataProtection.Models.BackupSchedule * seq&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt; -&gt; Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext" Usage="new Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext (schedule, taggingCriteria)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="schedule" Type="Azure.ResourceManager.DataProtection.Models.BackupSchedule" />
+        <Parameter Name="taggingCriteria" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="schedule"> Schedule for this backup. </param>
+        <param name="taggingCriteria"> List of tags that can be applicable for given schedule. </param>
+        <summary> Initializes a new instance of ScheduleBasedTriggerContext. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="schedule" /> or <paramref name="taggingCriteria" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Schedule">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.BackupSchedule Schedule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DataProtection.Models.BackupSchedule Schedule" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext.Schedule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Schedule As BackupSchedule" />
+      <MemberSignature Language="F#" Value="member this.Schedule : Azure.ResourceManager.DataProtection.Models.BackupSchedule with get, set" Usage="Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext.Schedule" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.BackupSchedule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Schedule for this backup. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaggingCriteria">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt; TaggingCriteria { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt; TaggingCriteria" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext.TaggingCriteria" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaggingCriteria As IList(Of TaggingCriteria)" />
+      <MemberSignature Language="F#" Value="member this.TaggingCriteria : System.Collections.Generic.IList&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt;" Usage="Azure.ResourceManager.DataProtection.Models.ScheduleBasedTriggerContext.TaggingCriteria" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.DataProtection.Models.TaggingCriteria&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> List of tags that can be applicable for given schedule. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

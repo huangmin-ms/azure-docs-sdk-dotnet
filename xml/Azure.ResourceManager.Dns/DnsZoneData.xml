@@ -57,12 +57,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="MaxNumberOfRecordSets">
-      <MemberSignature Language="C#" Value="public long? MaxNumberOfRecordSets { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; MaxNumberOfRecordSets" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordSets" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxNumberOfRecordSets As Nullable(Of Long)" />
-      <MemberSignature Language="F#" Value="member this.MaxNumberOfRecordSets : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordSets" />
+    <Member MemberName="MaxNumberOfRecords">
+      <MemberSignature Language="C#" Value="public long? MaxNumberOfRecords { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; MaxNumberOfRecords" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecords" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxNumberOfRecords As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.MaxNumberOfRecords : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecords" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
@@ -77,12 +77,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="MaxNumberOfRecordsPerRecordSet">
-      <MemberSignature Language="C#" Value="public long? MaxNumberOfRecordsPerRecordSet { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; MaxNumberOfRecordsPerRecordSet" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordsPerRecordSet" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxNumberOfRecordsPerRecordSet As Nullable(Of Long)" />
-      <MemberSignature Language="F#" Value="member this.MaxNumberOfRecordsPerRecordSet : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordsPerRecordSet" />
+    <Member MemberName="MaxNumberOfRecordsPerRecord">
+      <MemberSignature Language="C#" Value="public long? MaxNumberOfRecordsPerRecord { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; MaxNumberOfRecordsPerRecord" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordsPerRecord" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxNumberOfRecordsPerRecord As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.MaxNumberOfRecordsPerRecord : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.MaxNumberOfRecordsPerRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>
@@ -117,12 +117,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="NumberOfRecordSets">
-      <MemberSignature Language="C#" Value="public long? NumberOfRecordSets { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; NumberOfRecordSets" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.NumberOfRecordSets" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfRecordSets As Nullable(Of Long)" />
-      <MemberSignature Language="F#" Value="member this.NumberOfRecordSets : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.NumberOfRecordSets" />
+    <Member MemberName="NumberOfRecords">
+      <MemberSignature Language="C#" Value="public long? NumberOfRecords { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; NumberOfRecords" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dns.DnsZoneData.NumberOfRecords" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfRecords As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.NumberOfRecords : Nullable&lt;int64&gt;" Usage="Azure.ResourceManager.Dns.DnsZoneData.NumberOfRecords" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dns</AssemblyName>

@@ -1,0 +1,63 @@
+<Type Name="AdhocBasedTriggerContext" FullName="Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext">
+  <TypeSignature Language="C#" Value="public class AdhocBasedTriggerContext : Azure.ResourceManager.DataProtection.Models.TriggerContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AdhocBasedTriggerContext extends Azure.ResourceManager.DataProtection.Models.TriggerContext" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class AdhocBasedTriggerContext&#xA;Inherits TriggerContext" />
+  <TypeSignature Language="F#" Value="type AdhocBasedTriggerContext = class&#xA;    inherit TriggerContext" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.DataProtection.Models.TriggerContext</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Adhoc trigger context. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AdhocBasedTriggerContext (Azure.ResourceManager.DataProtection.Models.AdhocBasedTaggingCriteria taggingCriteria);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.DataProtection.Models.AdhocBasedTaggingCriteria taggingCriteria) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext.#ctor(Azure.ResourceManager.DataProtection.Models.AdhocBasedTaggingCriteria)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (taggingCriteria As AdhocBasedTaggingCriteria)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext : Azure.ResourceManager.DataProtection.Models.AdhocBasedTaggingCriteria -&gt; Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext" Usage="new Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext taggingCriteria" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="taggingCriteria" Type="Azure.ResourceManager.DataProtection.Models.AdhocBasedTaggingCriteria" />
+      </Parameters>
+      <Docs>
+        <param name="taggingCriteria"> Tagging Criteria containing retention tag for adhoc backup. </param>
+        <summary> Initializes a new instance of AdhocBasedTriggerContext. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="taggingCriteria" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="TaggingCriteriaTagInfo">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.RetentionTag TaggingCriteriaTagInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DataProtection.Models.RetentionTag TaggingCriteriaTagInfo" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext.TaggingCriteriaTagInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaggingCriteriaTagInfo As RetentionTag" />
+      <MemberSignature Language="F#" Value="member this.TaggingCriteriaTagInfo : Azure.ResourceManager.DataProtection.Models.RetentionTag with get, set" Usage="Azure.ResourceManager.DataProtection.Models.AdhocBasedTriggerContext.TaggingCriteriaTagInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.RetentionTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Retention tag information. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

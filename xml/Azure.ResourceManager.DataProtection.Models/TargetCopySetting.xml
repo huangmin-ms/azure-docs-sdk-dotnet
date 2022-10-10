@@ -1,0 +1,93 @@
+<Type Name="TargetCopySetting" FullName="Azure.ResourceManager.DataProtection.Models.TargetCopySetting">
+  <TypeSignature Language="C#" Value="public class TargetCopySetting" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TargetCopySetting extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataProtection.Models.TargetCopySetting" />
+  <TypeSignature Language="VB.NET" Value="Public Class TargetCopySetting" />
+  <TypeSignature Language="F#" Value="type TargetCopySetting = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Target copy settings. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TargetCopySetting (Azure.ResourceManager.DataProtection.Models.CopyOption copyAfter, Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase dataStore);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.DataProtection.Models.CopyOption copyAfter, class Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase dataStore) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtection.Models.TargetCopySetting.#ctor(Azure.ResourceManager.DataProtection.Models.CopyOption,Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (copyAfter As CopyOption, dataStore As DataStoreInfoBase)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.DataProtection.Models.TargetCopySetting : Azure.ResourceManager.DataProtection.Models.CopyOption * Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase -&gt; Azure.ResourceManager.DataProtection.Models.TargetCopySetting" Usage="new Azure.ResourceManager.DataProtection.Models.TargetCopySetting (copyAfter, dataStore)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="copyAfter" Type="Azure.ResourceManager.DataProtection.Models.CopyOption" />
+        <Parameter Name="dataStore" Type="Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase" />
+      </Parameters>
+      <Docs>
+        <param name="copyAfter">
+            It can be CustomCopyOption or ImmediateCopyOption.
+            Please note <see cref="T:Azure.ResourceManager.DataProtection.Models.CopyOption" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtection.Models.CopyOnExpiryOption" />, <see cref="T:Azure.ResourceManager.DataProtection.Models.CustomCopyOption" /> and <see cref="T:Azure.ResourceManager.DataProtection.Models.ImmediateCopyOption" />.
+            </param>
+        <param name="dataStore"> Info of target datastore. </param>
+        <summary> Initializes a new instance of TargetCopySetting. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="copyAfter" /> or <paramref name="dataStore" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyAfter">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.CopyOption CopyAfter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DataProtection.Models.CopyOption CopyAfter" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.TargetCopySetting.CopyAfter" />
+      <MemberSignature Language="VB.NET" Value="Public Property CopyAfter As CopyOption" />
+      <MemberSignature Language="F#" Value="member this.CopyAfter : Azure.ResourceManager.DataProtection.Models.CopyOption with get, set" Usage="Azure.ResourceManager.DataProtection.Models.TargetCopySetting.CopyAfter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.CopyOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            It can be CustomCopyOption or ImmediateCopyOption.
+            Please note <see cref="T:Azure.ResourceManager.DataProtection.Models.CopyOption" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtection.Models.CopyOnExpiryOption" />, <see cref="T:Azure.ResourceManager.DataProtection.Models.CustomCopyOption" /> and <see cref="T:Azure.ResourceManager.DataProtection.Models.ImmediateCopyOption" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataStore">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase DataStore { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase DataStore" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataProtection.Models.TargetCopySetting.DataStore" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataStore As DataStoreInfoBase" />
+      <MemberSignature Language="F#" Value="member this.DataStore : Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase with get, set" Usage="Azure.ResourceManager.DataProtection.Models.TargetCopySetting.DataStore" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtection</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtection.Models.DataStoreInfoBase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Info of target datastore. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
