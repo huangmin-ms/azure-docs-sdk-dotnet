@@ -17,6 +17,7 @@ azurebatch,Microsoft.Azure.Batch,15.3.0
 azurebatchconventionsfiles,Microsoft.Azure.Batch.Conventions.Files,4.0.0
 contentmoderation,Microsoft.Azure.CognitiveServices.ContentModerator
 qnamaker,Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker
+,CustomPackageSource
 luisauthoring,Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring
 luisruntime,Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime
 languagespellcheck,Microsoft.Azure.CognitiveServices.Language.SpellCheck
