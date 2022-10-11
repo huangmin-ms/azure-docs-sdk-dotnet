@@ -17,6 +17,70 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="GetAllQuota">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetAllQuota (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetAllQuota(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetAllQuota(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAllQuota (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceQuota)" />
+      <MemberSignature Language="F#" Value="static member GetAllQuota : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetAllQuota (subscriptionResource, location, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location for which resource usage is queried. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the currently assigned Workspace Quotas based on VMFamily.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.MachineLearningServices/locations/{location}/quotas
+            Operation Id: Quotas_List
+            </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.ResourceQuota" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllQuotaAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetAllQuotaAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetAllQuotaAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetAllQuotaAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAllQuotaAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceQuota)" />
+      <MemberSignature Language="F#" Value="static member GetAllQuotaAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetAllQuotaAsync (subscriptionResource, location, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
+        <param name="location"> The location for which resource usage is queried. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Gets the currently assigned Workspace Quotas based on VMFamily.
+            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.MachineLearningServices/locations/{location}/quotas
+            Operation Id: Quotas_List
+            </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.ResourceQuota" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetBatchDeploymentResource">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MachineLearning.BatchDeploymentResource GetBatchDeploymentResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MachineLearning.BatchDeploymentResource GetBatchDeploymentResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
@@ -728,70 +792,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetQuotas">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetQuotas (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetQuotas(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetQuotas(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetQuotas (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceQuota)" />
-      <MemberSignature Language="F#" Value="static member GetQuotas : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetQuotas (subscriptionResource, location, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="location"> The location for which resource usage is queried. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the currently assigned Workspace Quotas based on VMFamily.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.MachineLearningServices/locations/{location}/quotas
-            Operation Id: Quotas_List
-            </summary>
-        <returns> A collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.ResourceQuota" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetQuotasAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetQuotasAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt; GetQuotasAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetQuotasAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetQuotasAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceQuota)" />
-      <MemberSignature Language="F#" Value="static member GetQuotasAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.GetQuotasAsync (subscriptionResource, location, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.ResourceQuota&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="location"> The location for which resource usage is queried. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the currently assigned Workspace Quotas based on VMFamily.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.MachineLearningServices/locations/{location}/quotas
-            Operation Id: Quotas_List
-            </summary>
-        <returns> An async collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.ResourceQuota" /> that may take multiple service requests to iterate over. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetUsages">
       <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.MachineLearningUsage&gt; GetUsages (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.MachineLearningUsage&gt; GetUsages(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -949,12 +949,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="UpdateQuotas">
-      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateQuotas (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateQuotas(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateQuotas(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateQuotas (subscriptionResource As SubscriptionResource, location As AzureLocation, content As QuotaUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of UpdateWorkspaceQuotas)" />
-      <MemberSignature Language="F#" Value="static member UpdateQuotas : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateQuotas (subscriptionResource, location, content, cancellationToken)" />
+    <Member MemberName="UpdateAllQuota">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateAllQuota (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateAllQuota(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateAllQuota(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateAllQuota (subscriptionResource As SubscriptionResource, location As AzureLocation, content As QuotaUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of UpdateWorkspaceQuotas)" />
+      <MemberSignature Language="F#" Value="static member UpdateAllQuota : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateAllQuota (subscriptionResource, location, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
@@ -985,12 +985,12 @@
           <paramref name="content" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="UpdateQuotasAsync">
-      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateQuotasAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateQuotasAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateQuotasAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateQuotasAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, content As QuotaUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of UpdateWorkspaceQuotas)" />
-      <MemberSignature Language="F#" Value="static member UpdateQuotasAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateQuotasAsync (subscriptionResource, location, content, cancellationToken)" />
+    <Member MemberName="UpdateAllQuotaAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateAllQuotaAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt; UpdateAllQuotaAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateAllQuotaAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateAllQuotaAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, content As QuotaUpdateContent, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of UpdateWorkspaceQuotas)" />
+      <MemberSignature Language="F#" Value="static member UpdateAllQuotaAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * Azure.ResourceManager.MachineLearning.Models.QuotaUpdateContent * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.MachineLearning.Models.UpdateWorkspaceQuotas&gt;" Usage="Azure.ResourceManager.MachineLearning.MachineLearningExtensions.UpdateAllQuotaAsync (subscriptionResource, location, content, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>

@@ -25,8 +25,8 @@
   <Docs>
     <summary>
             A class representing a collection of <see cref="T:Azure.ResourceManager.EventGrid.TopicEventSubscriptionResource" /> and their operations.
-            Each <see cref="T:Azure.ResourceManager.EventGrid.TopicEventSubscriptionResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.EventGrid.TopicResource" />.
-            To get a <see cref="T:Azure.ResourceManager.EventGrid.TopicEventSubscriptionCollection" /> instance call the GetTopicEventSubscriptions method from an instance of <see cref="T:Azure.ResourceManager.EventGrid.TopicResource" />.
+            Each <see cref="T:Azure.ResourceManager.EventGrid.TopicEventSubscriptionResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.EventGrid.EventGridTopicResource" />.
+            To get a <see cref="T:Azure.ResourceManager.EventGrid.TopicEventSubscriptionCollection" /> instance call the GetTopicEventSubscriptions method from an instance of <see cref="T:Azure.ResourceManager.EventGrid.EventGridTopicResource" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

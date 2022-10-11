@@ -17,12 +17,12 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="EndpointUri">
-      <MemberSignature Language="C#" Value="public Uri EndpointUri { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri EndpointUri" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.EventSubscriptionFullUri.EndpointUri" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndpointUri As Uri" />
-      <MemberSignature Language="F#" Value="member this.EndpointUri : Uri" Usage="Azure.ResourceManager.EventGrid.Models.EventSubscriptionFullUri.EndpointUri" />
+    <Member MemberName="Endpoint">
+      <MemberSignature Language="C#" Value="public Uri Endpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Endpoint" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.EventSubscriptionFullUri.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Endpoint As Uri" />
+      <MemberSignature Language="F#" Value="member this.Endpoint : Uri" Usage="Azure.ResourceManager.EventGrid.Models.EventSubscriptionFullUri.Endpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>

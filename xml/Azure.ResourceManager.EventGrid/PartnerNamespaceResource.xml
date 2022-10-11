@@ -273,19 +273,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetChannel">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt; GetChannel (string channelName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.EventGrid.ChannelResource&gt; GetChannel(string channelName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetChannel(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChannel (channelName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ChannelResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetChannel : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;&#xA;override this.GetChannel : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;" Usage="partnerNamespaceResource.GetChannel (channelName, cancellationToken)" />
+    <Member MemberName="GetPartnerNamespaceChannel">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt; GetPartnerNamespaceChannel (string channelName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt; GetPartnerNamespaceChannel(string channelName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetPartnerNamespaceChannel(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPartnerNamespaceChannel (channelName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of PartnerNamespaceChannelResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetPartnerNamespaceChannel : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&#xA;override this.GetPartnerNamespaceChannel : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;" Usage="partnerNamespaceResource.GetPartnerNamespaceChannel (channelName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="channelName" Type="System.String" />
@@ -307,19 +307,19 @@
           <paramref name="channelName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetChannelAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;&gt; GetChannelAsync (string channelName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.EventGrid.ChannelResource&gt;&gt; GetChannelAsync(string channelName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetChannelAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChannelAsync (channelName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ChannelResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetChannelAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;&gt;&#xA;override this.GetChannelAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;&gt;" Usage="partnerNamespaceResource.GetChannelAsync (channelName, cancellationToken)" />
+    <Member MemberName="GetPartnerNamespaceChannelAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&gt; GetPartnerNamespaceChannelAsync (string channelName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&gt; GetPartnerNamespaceChannelAsync(string channelName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetPartnerNamespaceChannelAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPartnerNamespaceChannelAsync (channelName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of PartnerNamespaceChannelResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetPartnerNamespaceChannelAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&gt;&#xA;override this.GetPartnerNamespaceChannelAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&gt;" Usage="partnerNamespaceResource.GetPartnerNamespaceChannelAsync (channelName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.ChannelResource&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.EventGrid.PartnerNamespaceChannelResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="channelName" Type="System.String" />
@@ -341,24 +341,24 @@
           <paramref name="channelName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetChannels">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.EventGrid.ChannelCollection GetChannels ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.EventGrid.ChannelCollection GetChannels() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetChannels" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChannels () As ChannelCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetChannels : unit -&gt; Azure.ResourceManager.EventGrid.ChannelCollection&#xA;override this.GetChannels : unit -&gt; Azure.ResourceManager.EventGrid.ChannelCollection" Usage="partnerNamespaceResource.GetChannels " />
+    <Member MemberName="GetPartnerNamespaceChannels">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.EventGrid.PartnerNamespaceChannelCollection GetPartnerNamespaceChannels ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.EventGrid.PartnerNamespaceChannelCollection GetPartnerNamespaceChannels() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventGrid.PartnerNamespaceResource.GetPartnerNamespaceChannels" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPartnerNamespaceChannels () As PartnerNamespaceChannelCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetPartnerNamespaceChannels : unit -&gt; Azure.ResourceManager.EventGrid.PartnerNamespaceChannelCollection&#xA;override this.GetPartnerNamespaceChannels : unit -&gt; Azure.ResourceManager.EventGrid.PartnerNamespaceChannelCollection" Usage="partnerNamespaceResource.GetPartnerNamespaceChannels " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.EventGrid.ChannelCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.EventGrid.PartnerNamespaceChannelCollection</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of ChannelResources in the PartnerNamespace. </summary>
-        <returns> An object representing collection of ChannelResources and their operations over a ChannelResource. </returns>
+        <summary> Gets a collection of PartnerNamespaceChannelResources in the PartnerNamespace. </summary>
+        <returns> An object representing collection of PartnerNamespaceChannelResources and their operations over a PartnerNamespaceChannelResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

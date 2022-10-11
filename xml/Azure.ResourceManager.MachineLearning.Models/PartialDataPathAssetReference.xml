@@ -1,0 +1,77 @@
+<Type Name="PartialDataPathAssetReference" FullName="Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference">
+  <TypeSignature Language="C#" Value="public class PartialDataPathAssetReference : Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PartialDataPathAssetReference extends Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference" />
+  <TypeSignature Language="VB.NET" Value="Public Class PartialDataPathAssetReference&#xA;Inherits PartialAssetReferenceBase" />
+  <TypeSignature Language="F#" Value="type PartialDataPathAssetReference = class&#xA;    inherit PartialAssetReferenceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Reference to an asset via its path in a datastore. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartialDataPathAssetReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PartialDataPathAssetReference. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DatastoreId">
+      <MemberSignature Language="C#" Value="public string DatastoreId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DatastoreId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference.DatastoreId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DatastoreId As String" />
+      <MemberSignature Language="F#" Value="member this.DatastoreId : string with get, set" Usage="Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference.DatastoreId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> ARM resource ID of the datastore where the asset is located. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference.Path" />
+      <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string with get, set" Usage="Azure.ResourceManager.MachineLearning.Models.PartialDataPathAssetReference.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The path of the file/directory in the datastore. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

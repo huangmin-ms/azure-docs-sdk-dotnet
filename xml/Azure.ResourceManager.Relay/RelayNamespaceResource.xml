@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;&gt;</ReturnType>
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -144,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayNamespaceData</ReturnType>
@@ -165,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -196,6 +203,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -227,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;</ReturnType>
@@ -255,6 +264,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;&gt;</ReturnType>
@@ -273,205 +283,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetHybridConnection">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt; GetHybridConnection (string hybridConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Relay.HybridConnectionResource&gt; GetHybridConnection(string hybridConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetHybridConnection(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHybridConnection (hybridConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of HybridConnectionResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetHybridConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;&#xA;override this.GetHybridConnection : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;" Usage="relayNamespaceResource.GetHybridConnection (hybridConnectionName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="hybridConnectionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="hybridConnectionName"> The hybrid connection name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Returns the description for the specified hybrid connection.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Relay/namespaces/{namespaceName}/hybridConnections/{hybridConnectionName}
-            Operation Id: HybridConnections_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hybridConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="hybridConnectionName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetHybridConnectionAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;&gt; GetHybridConnectionAsync (string hybridConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Relay.HybridConnectionResource&gt;&gt; GetHybridConnectionAsync(string hybridConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetHybridConnectionAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHybridConnectionAsync (hybridConnectionName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of HybridConnectionResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetHybridConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;&gt;&#xA;override this.GetHybridConnectionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;&gt;" Usage="relayNamespaceResource.GetHybridConnectionAsync (hybridConnectionName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.HybridConnectionResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="hybridConnectionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="hybridConnectionName"> The hybrid connection name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Returns the description for the specified hybrid connection.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Relay/namespaces/{namespaceName}/hybridConnections/{hybridConnectionName}
-            Operation Id: HybridConnections_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hybridConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="hybridConnectionName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetHybridConnections">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Relay.HybridConnectionCollection GetHybridConnections ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Relay.HybridConnectionCollection GetHybridConnections() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetHybridConnections" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHybridConnections () As HybridConnectionCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetHybridConnections : unit -&gt; Azure.ResourceManager.Relay.HybridConnectionCollection&#xA;override this.GetHybridConnections : unit -&gt; Azure.ResourceManager.Relay.HybridConnectionCollection" Usage="relayNamespaceResource.GetHybridConnections " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Relay.HybridConnectionCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of HybridConnectionResources in the RelayNamespace. </summary>
-        <returns> An object representing collection of HybridConnectionResources and their operations over a HybridConnectionResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNamespaceAuthorizationRule">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt; GetNamespaceAuthorizationRule (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt; GetNamespaceAuthorizationRule(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetNamespaceAuthorizationRule(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceAuthorizationRule (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of NamespaceAuthorizationRuleResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&#xA;override this.GetNamespaceAuthorizationRule : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;" Usage="relayNamespaceResource.GetNamespaceAuthorizationRule (authorizationRuleName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="authorizationRuleName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="authorizationRuleName"> The authorization rule name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Authorization rule for a namespace by name.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Relay/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
-            Operation Id: Namespaces_GetAuthorizationRule
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="authorizationRuleName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="authorizationRuleName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNamespaceAuthorizationRuleAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&gt; GetNamespaceAuthorizationRuleAsync (string authorizationRuleName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&gt; GetNamespaceAuthorizationRuleAsync(string authorizationRuleName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetNamespaceAuthorizationRuleAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceAuthorizationRuleAsync (authorizationRuleName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of NamespaceAuthorizationRuleResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&gt;&#xA;override this.GetNamespaceAuthorizationRuleAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&gt;" Usage="relayNamespaceResource.GetNamespaceAuthorizationRuleAsync (authorizationRuleName, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.NamespaceAuthorizationRuleResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="authorizationRuleName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="authorizationRuleName"> The authorization rule name. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Authorization rule for a namespace by name.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Relay/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
-            Operation Id: Namespaces_GetAuthorizationRule
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="authorizationRuleName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="authorizationRuleName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNamespaceAuthorizationRules">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Relay.NamespaceAuthorizationRuleCollection GetNamespaceAuthorizationRules ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Relay.NamespaceAuthorizationRuleCollection GetNamespaceAuthorizationRules() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetNamespaceAuthorizationRules" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamespaceAuthorizationRules () As NamespaceAuthorizationRuleCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetNamespaceAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.NamespaceAuthorizationRuleCollection&#xA;override this.GetNamespaceAuthorizationRules : unit -&gt; Azure.ResourceManager.Relay.NamespaceAuthorizationRuleCollection" Usage="relayNamespaceResource.GetNamespaceAuthorizationRules " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Relay.NamespaceAuthorizationRuleCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of NamespaceAuthorizationRuleResources in the RelayNamespace. </summary>
-        <returns> An object representing collection of NamespaceAuthorizationRuleResources and their operations over a NamespaceAuthorizationRuleResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNetworkRuleSet">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Relay.NetworkRuleSetResource GetNetworkRuleSet ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Relay.NetworkRuleSetResource GetNetworkRuleSet() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Relay.RelayNamespaceResource.GetNetworkRuleSet" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNetworkRuleSet () As NetworkRuleSetResource" />
-      <MemberSignature Language="F#" Value="abstract member GetNetworkRuleSet : unit -&gt; Azure.ResourceManager.Relay.NetworkRuleSetResource&#xA;override this.GetNetworkRuleSet : unit -&gt; Azure.ResourceManager.Relay.NetworkRuleSetResource" Usage="relayNamespaceResource.GetNetworkRuleSet " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Relay.NetworkRuleSetResource</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets an object representing a NetworkRuleSetResource along with the instance operations that can be performed on it in the RelayNamespace. </summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.Relay.NetworkRuleSetResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetRelayHybridConnection">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Relay.RelayHybridConnectionResource&gt; GetRelayHybridConnection (string hybridConnectionName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Relay.RelayHybridConnectionResource&gt; GetRelayHybridConnection(string hybridConnectionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -482,13 +293,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayHybridConnectionResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hybridConnectionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="hybridConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="hybridConnectionName"> The hybrid connection name. </param>
@@ -516,13 +328,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayHybridConnectionResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hybridConnectionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="hybridConnectionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="hybridConnectionName"> The hybrid connection name. </param>
@@ -550,6 +363,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayHybridConnectionCollection</ReturnType>
@@ -571,13 +385,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceAuthorizationRuleResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="authorizationRuleName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="authorizationRuleName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="authorizationRuleName"> The authorization rule name. </param>
@@ -605,13 +420,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceAuthorizationRuleResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="authorizationRuleName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="authorizationRuleName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="authorizationRuleName"> The authorization rule name. </param>
@@ -639,6 +455,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayNamespaceAuthorizationRuleCollection</ReturnType>
@@ -660,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayNetworkRuleSetResource</ReturnType>
@@ -681,6 +499,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -715,6 +534,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -749,6 +569,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayPrivateEndpointConnectionCollection</ReturnType>
@@ -770,6 +591,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayPrivateLinkResource&gt;</ReturnType>
@@ -804,6 +626,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayPrivateLinkResource&gt;&gt;</ReturnType>
@@ -838,6 +661,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.RelayPrivateLinkResourceCollection</ReturnType>
@@ -859,6 +683,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayResource&gt;</ReturnType>
@@ -893,6 +718,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.WcfRelayResource&gt;&gt;</ReturnType>
@@ -927,6 +753,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Relay.WcfRelayCollection</ReturnType>
@@ -948,6 +775,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -968,6 +796,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;</ReturnType>
@@ -1000,6 +829,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;&gt;</ReturnType>
@@ -1032,6 +862,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1051,6 +882,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;</ReturnType>
@@ -1083,6 +915,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;&gt;</ReturnType>
@@ -1115,6 +948,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;</ReturnType>
@@ -1147,6 +981,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Relay</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Relay.RelayNamespaceResource&gt;&gt;</ReturnType>
