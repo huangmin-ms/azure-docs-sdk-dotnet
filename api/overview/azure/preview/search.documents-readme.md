@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: search
 ---
-# Azure Cognitive Search client library for .NET - version 11.5.0-alpha.20221012.2 
+# Azure Cognitive Search client library for .NET - version 11.5.0-alpha.20221012.3 
 
 
 [Azure Cognitive Search](/azure/search/) is a
