@@ -74,12 +74,24 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <list>
-          <item> heading </item>
-          <item> number </item>
-          <item> returnRoadUse </item>
-          <item> returnSpeedLimit </item>
-          <item> roadUse </item>
-          <item> returnMatchType </item>
+          <item>
+            <description> heading </description>
+          </item>
+          <item>
+            <description> number </description>
+          </item>
+          <item>
+            <description> returnRoadUse </description>
+          </item>
+          <item>
+            <description> returnSpeedLimit </description>
+          </item>
+          <item>
+            <description> roadUse </description>
+          </item>
+          <item>
+            <description> returnMatchType </description>
+          </item>
         </list>
       </Docs>
     </Member>
@@ -102,7 +114,7 @@
              Indexes for which extended postal codes should be included in the results.
             
              Available indexes are:
-             <list><item> Addr = Address ranges </item><item> Geo = Geographies </item><item> PAD = Point Addresses </item><item> POI = Points of Interest </item><item> Str = Streets </item><item> XStr = Cross Streets (intersections) </item></list>
+             <list><item><description> Addr = Address ranges </description></item><item><description> Geo = Geographies </description></item><item><description> PAD = Point Addresses </description></item><item><description> POI = Points of Interest </description></item><item><description> Str = Streets </description></item><item><description> XStr = Cross Streets (intersections) </description></item></list>
              Value should be a comma separated list of index types (in any order) or **None** for no indexes.
             
              By default extended postal codes are included for all indexes except Geo. Extended postal code lists for geographies can be quite long so they have to be explicitly requested when needed.
@@ -183,10 +195,18 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <list>
-          <item> Level 1 has no spell checking. </item>
-          <item> Level 2 uses normal n-gram spell checking. For example, query "restrant" can be matched to "restaurant." </item>
-          <item> Level 3 uses sound-like spell checking, and shingle spell checking. Sound-like spell checking is for "rstrnt" to "restaurant" matching. Shingle spell checking is for "mountainview" to "mountain view" matching. </item>
-          <item> Level 4 doesn’t add any more spell checking functions. </item>
+          <item>
+            <description> Level 1 has no spell checking. </description>
+          </item>
+          <item>
+            <description> Level 2 uses normal n-gram spell checking. For example, query "restrant" can be matched to "restaurant." </description>
+          </item>
+          <item>
+            <description> Level 3 uses sound-like spell checking, and shingle spell checking. Sound-like spell checking is for "rstrnt" to "restaurant" matching. Shingle spell checking is for "mountainview" to "mountain view" matching. </description>
+          </item>
+          <item>
+            <description> Level 4 doesn’t add any more spell checking functions. </description>
+          </item>
         </list>
       </Docs>
     </Member>
@@ -211,10 +231,18 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <list>
-          <item> Level 1 has no spell checking. </item>
-          <item> Level 2 uses normal n-gram spell checking. For example, query "restrant" can be matched to "restaurant." </item>
-          <item> Level 3 uses sound-like spell checking, and shingle spell checking. Sound-like spell checking is for "rstrnt" to "restaurant" matching. Shingle spell checking is for "mountainview" to "mountain view" matching. </item>
-          <item> Level 4 doesn’t add any more spell checking functions. </item>
+          <item>
+            <description> Level 1 has no spell checking. </description>
+          </item>
+          <item>
+            <description> Level 2 uses normal n-gram spell checking. For example, query "restrant" can be matched to "restaurant." </description>
+          </item>
+          <item>
+            <description> Level 3 uses sound-like spell checking, and shingle spell checking. Sound-like spell checking is for "rstrnt" to "restaurant" matching. Shingle spell checking is for "mountainview" to "mountain view" matching. </description>
+          </item>
+          <item>
+            <description> Level 4 doesn’t add any more spell checking functions. </description>
+          </item>
             
              The search engine will start looking for a match on the level defined by minFuzzyLevel, and will stop searching at the level specified by maxFuzzyLevel.
              </list>

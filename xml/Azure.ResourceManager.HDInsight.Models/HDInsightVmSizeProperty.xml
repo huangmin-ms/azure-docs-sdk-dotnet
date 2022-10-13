@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -87,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -107,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -127,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -147,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -167,52 +175,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The vm size name. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SupportedByVirtualMachines">
-      <MemberSignature Language="C#" Value="public bool? SupportedByVirtualMachines { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SupportedByVirtualMachines" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.HDInsight.Models.HDInsightVmSizeProperty.SupportedByVirtualMachines" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedByVirtualMachines As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.SupportedByVirtualMachines : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.HDInsight.Models.HDInsightVmSizeProperty.SupportedByVirtualMachines" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> This indicates this vm size is supported by virtual machines or not. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SupportedByWebWorkerRoles">
-      <MemberSignature Language="C#" Value="public bool? SupportedByWebWorkerRoles { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SupportedByWebWorkerRoles" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.HDInsight.Models.HDInsightVmSizeProperty.SupportedByWebWorkerRoles" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedByWebWorkerRoles As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.SupportedByWebWorkerRoles : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.HDInsight.Models.HDInsightVmSizeProperty.SupportedByWebWorkerRoles" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The indicates this vm size is supported by web worker roles or not. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -247,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>

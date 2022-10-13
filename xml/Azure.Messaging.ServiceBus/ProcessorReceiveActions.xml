@@ -11,6 +11,7 @@
     <AssemblyVersion>7.9.0.0</AssemblyVersion>
     <AssemblyVersion>7.10.0.0</AssemblyVersion>
     <AssemblyVersion>7.11.0.0</AssemblyVersion>
+    <AssemblyVersion>7.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
         <AssemblyVersion>7.9.0.0</AssemblyVersion>
         <AssemblyVersion>7.10.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
+        <AssemblyVersion>7.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,14 +57,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
+        <AssemblyVersion>7.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="maxMessages" Type="System.Int32" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="fromSequenceNumber" Type="System.Nullable&lt;System.Int64&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="maxMessages" Type="System.Int32" />
+        <Parameter Name="fromSequenceNumber" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="maxMessages">The maximum number of messages that will be fetched.</param>
@@ -93,6 +96,7 @@
         <AssemblyVersion>7.9.0.0</AssemblyVersion>
         <AssemblyVersion>7.10.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
+        <AssemblyVersion>7.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
@@ -133,6 +137,7 @@
         <AssemblyVersion>7.9.0.0</AssemblyVersion>
         <AssemblyVersion>7.10.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
+        <AssemblyVersion>7.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>

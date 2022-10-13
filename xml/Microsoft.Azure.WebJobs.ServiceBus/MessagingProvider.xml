@@ -15,6 +15,8 @@
     <AssemblyVersion>5.5.1.0</AssemblyVersion>
     <AssemblyVersion>5.6.0.0</AssemblyVersion>
     <AssemblyVersion>5.7.0.0</AssemblyVersion>
+    <AssemblyVersion>5.8.0.0</AssemblyVersion>
+    <AssemblyVersion>5.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,6 +49,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="options" Type="Microsoft.Extensions.Options.IOptions&lt;Microsoft.Azure.WebJobs.ServiceBus.ServiceBusOptions&gt;" />
@@ -79,6 +83,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiver</ReturnType>
@@ -119,6 +125,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusClient</ReturnType>
@@ -158,6 +166,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusClient</ReturnType>
@@ -200,6 +210,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.ServiceBus.MessageProcessor</ReturnType>
@@ -240,6 +252,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSender</ReturnType>
@@ -277,6 +291,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -317,6 +333,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.ServiceBus.SessionMessageProcessor</ReturnType>
@@ -357,6 +375,8 @@
         <AssemblyVersion>5.5.1.0</AssemblyVersion>
         <AssemblyVersion>5.6.0.0</AssemblyVersion>
         <AssemblyVersion>5.7.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSessionProcessor</ReturnType>

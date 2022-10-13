@@ -169,7 +169,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the interval of the schedule..
+            Gets or sets the interval of the schedule.
             <para>
             To assign an object to this property use <see cref="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />.
             </para><para>

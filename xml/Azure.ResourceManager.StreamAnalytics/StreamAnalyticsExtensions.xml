@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsQueryCompilationResult&gt;</ReturnType>
@@ -66,6 +68,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsQueryCompilationResult&gt;&gt;</ReturnType>
@@ -103,6 +106,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsSubscriptionQuota&gt;</ReturnType>
@@ -136,6 +140,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsSubscriptionQuota&gt;</ReturnType>
@@ -169,6 +174,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterResource&gt;</ReturnType>
@@ -206,6 +212,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterResource&gt;&gt;</ReturnType>
@@ -243,6 +250,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterResource</ReturnType>
@@ -273,6 +281,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterCollection</ReturnType>
@@ -298,6 +307,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterResource&gt;</ReturnType>
@@ -329,6 +339,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StreamAnalytics.StreamAnalyticsClusterResource&gt;</ReturnType>
@@ -360,6 +371,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamAnalyticsPrivateEndpointResource</ReturnType>
@@ -390,6 +402,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.StreamingJobResource&gt;</ReturnType>
@@ -429,6 +442,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StreamAnalytics.StreamingJobResource&gt;&gt;</ReturnType>
@@ -468,6 +482,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobFunctionResource</ReturnType>
@@ -498,6 +513,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobInputResource</ReturnType>
@@ -528,6 +544,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobOutputResource</ReturnType>
@@ -558,6 +575,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobResource</ReturnType>
@@ -588,6 +606,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobCollection</ReturnType>
@@ -613,6 +632,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StreamAnalytics.StreamingJobResource&gt;</ReturnType>
@@ -646,6 +666,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StreamAnalytics.StreamingJobResource&gt;</ReturnType>
@@ -679,6 +700,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StreamAnalytics.StreamingJobTransformationResource</ReturnType>
@@ -709,6 +731,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsSampleInputResult&gt;</ReturnType>
@@ -749,6 +772,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsSampleInputResult&gt;&gt;</ReturnType>
@@ -789,6 +813,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsTestDatasourceResult&gt;</ReturnType>
@@ -829,6 +854,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsTestDatasourceResult&gt;&gt;</ReturnType>
@@ -869,6 +895,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsTestDatasourceResult&gt;</ReturnType>
@@ -909,6 +936,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsTestDatasourceResult&gt;&gt;</ReturnType>
@@ -949,6 +977,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsQueryTestingResult&gt;</ReturnType>
@@ -989,6 +1018,7 @@
         <AssemblyName>Azure.ResourceManager.StreamAnalytics</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StreamAnalytics.Models.StreamAnalyticsQueryTestingResult&gt;&gt;</ReturnType>
