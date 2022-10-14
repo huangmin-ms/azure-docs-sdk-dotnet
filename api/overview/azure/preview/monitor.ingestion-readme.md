@@ -3,12 +3,12 @@ title: Azure Monitor Ingestion client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Monitor.Ingestion, monitor
 author: SameergMS
 ms.author: sameerg
-ms.date: 10/11/2022
+ms.date: 10/14/2022
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: monitor
 ---
-# Azure Monitor Ingestion client library for .NET - version 1.0.0-beta.4 
+# Azure Monitor Ingestion client library for .NET - version 1.0.0-alpha.20221014.1 
 
 
 The Azure Monitor Ingestion client library is used to send custom logs to [Azure Monitor][azure_monitor_overview].
@@ -17,10 +17,10 @@ This library allows you to send data from virtually any source to supported buil
 
 **Resources:**
 
-- [Source code](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/monitor/Azure.Monitor.Ingestion/src)
+- [Source code](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Ingestion/src)
 - [NuGet package](https://www.nuget.org/packages/Azure.Monitor.Ingestion)
 - [Service documentation][azure_monitor_overview]
-- [Change log](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/monitor/Azure.Monitor.Ingestion/CHANGELOG.md)
+- [Change log](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Ingestion/CHANGELOG.md)
 
 ## Getting started
 
@@ -86,21 +86,26 @@ We guarantee that all client instance methods are thread-safe and independent of
 ### Additional concepts
 
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/core/Azure.Core/README.md#mocking) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
+- [Register the client with dependency injection](#register-the-client-with-dependency-injection)
 - [Upload custom logs](#upload-custom-logs)
 - [Verify logs](#verify-logs)
 
-You can familiarize yourself with different APIs using [samples](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/monitor/Azure.Monitor.Ingestion/samples).
+You can familiarize yourself with different APIs using [samples](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/monitor/Azure.Monitor.Ingestion/samples).
+
+### Register the client with dependency injection
+
+To register `LogsIngestionClient` with the dependency injection (DI) container, invoke the `AddLogsIngestionClient` method. For more information, see [Register client](https://learn.microsoft.com/dotnet/azure/sdk/dependency-injection#register-client).
 
 ### Upload custom logs
 
@@ -155,7 +160,7 @@ Response response = await client.UploadAsync(
 
 ### Verify logs
 
-You can verify that your data has been uploaded correctly by using the [Azure Monitor Query](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Ingestion_1.0.0-beta.4/sdk/monitor/Azure.Monitor.Query/README.md#install-the-package) library. Run the [Upload custom logs](#upload-custom-logs) sample first before verifying the logs.
+You can verify that your data has been uploaded correctly by using the [Azure Monitor Query](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Query/README.md#install-the-package) library. Run the [Upload custom logs](#upload-custom-logs) sample first before verifying the logs.
 
 ```C# Snippet:VerifyLogsAsync
 var workspaceId = "<log_analytics_workspace_id>";
