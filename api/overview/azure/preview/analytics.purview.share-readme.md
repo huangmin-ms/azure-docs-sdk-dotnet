@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: purview
 ---
-# Azure Share client library for .NET - version 1.0.3-alpha.20221014.2 
+# Azure Share client library for .NET - version 1.0.3-alpha.20221014.3 
 
 
 Microsoft Purview Share is a fully managed cloud service.

@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: purview
 ---
-# Azure Purview Administration client library for .NET - version 1.0.0-alpha.20221014.2 
+# Azure Purview Administration client library for .NET - version 1.0.0-alpha.20221014.3 
 
 
 Azure Purview Administration contains the Purview Account and Purview MetdataPolicy managed cloud service.
