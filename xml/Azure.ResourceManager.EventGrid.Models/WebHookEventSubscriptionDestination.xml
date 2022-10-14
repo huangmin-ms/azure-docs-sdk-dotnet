@@ -33,12 +33,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="AzureActiveDirectoryApplicationIdOrUri">
-      <MemberSignature Language="C#" Value="public Uri AzureActiveDirectoryApplicationIdOrUri { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AzureActiveDirectoryApplicationIdOrUri" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryApplicationIdOrUri" />
-      <MemberSignature Language="VB.NET" Value="Public Property AzureActiveDirectoryApplicationIdOrUri As Uri" />
-      <MemberSignature Language="F#" Value="member this.AzureActiveDirectoryApplicationIdOrUri : Uri with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryApplicationIdOrUri" />
+    <Member MemberName="AzureActiveDirectoryTenantId">
+      <MemberSignature Language="C#" Value="public Guid? AzureActiveDirectoryTenantId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; AzureActiveDirectoryTenantId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryTenantId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureActiveDirectoryTenantId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.AzureActiveDirectoryTenantId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryTenantId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Azure Active Directory Tenant ID to get the access token that will be included as the bearer token in delivery requests. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseEndpoint">
+      <MemberSignature Language="C#" Value="public Uri BaseEndpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseEndpoint" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.BaseEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BaseEndpoint As Uri" />
+      <MemberSignature Language="F#" Value="member this.BaseEndpoint : Uri" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.BaseEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
@@ -48,27 +68,7 @@
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The Azure Active Directory Application ID or URI to get the access token that will be included as the bearer token in delivery requests. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AzureActiveDirectoryTenantId">
-      <MemberSignature Language="C#" Value="public string AzureActiveDirectoryTenantId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string AzureActiveDirectoryTenantId" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryTenantId" />
-      <MemberSignature Language="VB.NET" Value="Public Property AzureActiveDirectoryTenantId As String" />
-      <MemberSignature Language="F#" Value="member this.AzureActiveDirectoryTenantId : string with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.AzureActiveDirectoryTenantId" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The Azure Active Directory Tenant ID to get the access token that will be included as the bearer token in delivery requests. </summary>
+        <summary> The base URL that represents the endpoint of the destination of an event subscription. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,32 +97,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="EndpointBaseUri">
-      <MemberSignature Language="C#" Value="public Uri EndpointBaseUri { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri EndpointBaseUri" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.EndpointBaseUri" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndpointBaseUri As Uri" />
-      <MemberSignature Language="F#" Value="member this.EndpointBaseUri : Uri" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.EndpointBaseUri" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Uri</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The base URL that represents the endpoint of the destination of an event subscription. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="EndpointUri">
-      <MemberSignature Language="C#" Value="public Uri EndpointUri { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri EndpointUri" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.EndpointUri" />
-      <MemberSignature Language="VB.NET" Value="Public Property EndpointUri As Uri" />
-      <MemberSignature Language="F#" Value="member this.EndpointUri : Uri with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.EndpointUri" />
+    <Member MemberName="Endpoint">
+      <MemberSignature Language="C#" Value="public Uri Endpoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Endpoint" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As Uri" />
+      <MemberSignature Language="F#" Value="member this.Endpoint : Uri with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.Endpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
@@ -173,6 +153,26 @@
       </ReturnValue>
       <Docs>
         <summary> Preferred batch size in Kilobytes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UriOrAzureActiveDirectoryApplicationId">
+      <MemberSignature Language="C#" Value="public string UriOrAzureActiveDirectoryApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UriOrAzureActiveDirectoryApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.UriOrAzureActiveDirectoryApplicationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UriOrAzureActiveDirectoryApplicationId As String" />
+      <MemberSignature Language="F#" Value="member this.UriOrAzureActiveDirectoryApplicationId : string with get, set" Usage="Azure.ResourceManager.EventGrid.Models.WebHookEventSubscriptionDestination.UriOrAzureActiveDirectoryApplicationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Azure Active Directory Application ID or URI to get the access token that will be included as the bearer token in delivery requests. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

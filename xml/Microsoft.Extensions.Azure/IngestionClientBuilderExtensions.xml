@@ -48,7 +48,7 @@
         <typeparam name="TBuilder">To be added.</typeparam>
         <param name="builder">To be added.</param>
         <param name="endpoint">To be added.</param>
-        <summary>Uri endpoint, TokenCredential credential, LogsIngestionClientOptions options
+        <summary>
             Registers a <see cref="T:Azure.Monitor.Ingestion.LogsIngestionClient" /> instance with the provided <paramref name="endpoint" /></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

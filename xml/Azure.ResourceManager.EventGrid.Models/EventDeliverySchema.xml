@@ -43,12 +43,12 @@
           <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="CloudEventSchemaV10">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.EventGrid.Models.EventDeliverySchema CloudEventSchemaV10 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.EventGrid.Models.EventDeliverySchema CloudEventSchemaV10" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.EventDeliverySchema.CloudEventSchemaV10" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CloudEventSchemaV10 As EventDeliverySchema" />
-      <MemberSignature Language="F#" Value="static member CloudEventSchemaV10 : Azure.ResourceManager.EventGrid.Models.EventDeliverySchema" Usage="Azure.ResourceManager.EventGrid.Models.EventDeliverySchema.CloudEventSchemaV10" />
+    <Member MemberName="CloudEventSchemaV1_0">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.EventGrid.Models.EventDeliverySchema CloudEventSchemaV1_0 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.EventGrid.Models.EventDeliverySchema CloudEventSchemaV1_0" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.EventDeliverySchema.CloudEventSchemaV1_0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CloudEventSchemaV1_0 As EventDeliverySchema" />
+      <MemberSignature Language="F#" Value="static member CloudEventSchemaV1_0 : Azure.ResourceManager.EventGrid.Models.EventDeliverySchema" Usage="Azure.ResourceManager.EventGrid.Models.EventDeliverySchema.CloudEventSchemaV1_0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>

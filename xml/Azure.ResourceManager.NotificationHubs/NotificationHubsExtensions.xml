@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult&gt;</ReturnType>
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult&gt;&gt;</ReturnType>
@@ -95,6 +98,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleResource</ReturnType>
@@ -124,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -160,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -196,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource</ReturnType>
@@ -225,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource</ReturnType>
@@ -254,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceCollection</ReturnType>
@@ -278,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -308,6 +318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -338,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubResource</ReturnType>

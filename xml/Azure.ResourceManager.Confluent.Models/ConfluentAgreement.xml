@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
@@ -26,30 +27,11 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary> Initializes a new instance of ConfluentAgreement. </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Accepted">
-      <MemberSignature Language="C#" Value="public bool? Accepted { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Accepted" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.Accepted" />
-      <MemberSignature Language="VB.NET" Value="Public Property Accepted As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.Accepted : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.Accepted" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> If any version of the terms have been accepted, otherwise false. </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -83,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -123,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -143,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -163,32 +150,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Publisher identifier string. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="RetrieveDatetime">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? RetrieveDatetime { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; RetrieveDatetime" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveDatetime" />
-      <MemberSignature Language="VB.NET" Value="Public Property RetrieveDatetime As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.RetrieveDatetime : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.Confluent.Models.ConfluentAgreement.RetrieveDatetime" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Date and time in UTC of when the terms were accepted. This is empty if Accepted is false. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -223,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
