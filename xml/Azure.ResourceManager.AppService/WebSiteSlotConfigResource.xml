@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;</ReturnType>
@@ -83,6 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;&gt;</ReturnType>
@@ -118,6 +122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -148,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppService.SiteConfigData</ReturnType>
@@ -169,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;</ReturnType>
@@ -197,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;&gt;</ReturnType>
@@ -225,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.SiteConfigurationSnapshotInfo&gt;</ReturnType>
@@ -253,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.SiteConfigurationSnapshotInfo&gt;</ReturnType>
@@ -281,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotConfigSnapshotResource&gt;</ReturnType>
@@ -315,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotConfigSnapshotResource&gt;&gt;</ReturnType>
@@ -349,6 +361,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppService.SiteSlotConfigSnapshotCollection</ReturnType>
@@ -370,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -390,6 +404,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -409,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;</ReturnType>
@@ -441,6 +457,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.WebSiteSlotConfigResource&gt;&gt;</ReturnType>

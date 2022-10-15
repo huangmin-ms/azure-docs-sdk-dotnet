@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -78,6 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Media.StreamingLocatorData</ReturnType>
@@ -99,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -130,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -161,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;</ReturnType>
@@ -189,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;</ReturnType>
@@ -217,6 +225,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Media.Models.StreamingLocatorContentKey&gt;</ReturnType>
@@ -245,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Media.Models.StreamingLocatorContentKey&gt;</ReturnType>
@@ -273,12 +283,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.Models.StreamingPathsResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -301,68 +312,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.StreamingPathsResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List Paths supported by this Streaming Locator
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/streamingLocators/{streamingLocatorName}/listPaths
-            Operation Id: StreamingLocators_ListPaths
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSupportedPaths">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt; GetSupportedPaths (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.GetPathsResult&gt; GetSupportedPaths(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.StreamingLocatorResource.GetSupportedPaths(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSupportedPaths (Optional cancellationToken As CancellationToken = Nothing) As Response(Of GetPathsResult)" />
-      <MemberSignature Language="F#" Value="abstract member GetSupportedPaths : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;&#xA;override this.GetSupportedPaths : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;" Usage="streamingLocatorResource.GetSupportedPaths cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            List Paths supported by this Streaming Locator
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Media/mediaServices/{accountName}/streamingLocators/{streamingLocatorName}/listPaths
-            Operation Id: StreamingLocators_ListPaths
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSupportedPathsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;&gt; GetSupportedPathsAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Media.Models.GetPathsResult&gt;&gt; GetSupportedPathsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Media.StreamingLocatorResource.GetSupportedPathsAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSupportedPathsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GetPathsResult))" />
-      <MemberSignature Language="F#" Value="abstract member GetSupportedPathsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;&gt;&#xA;override this.GetSupportedPathsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;&gt;" Usage="streamingLocatorResource.GetSupportedPathsAsync cancellationToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Media.Models.GetPathsResult&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -385,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -405,6 +362,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -424,6 +382,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;</ReturnType>
@@ -459,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Media</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Media.StreamingLocatorResource&gt;&gt;</ReturnType>

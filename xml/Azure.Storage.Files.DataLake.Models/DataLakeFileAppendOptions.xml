@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
     <AssemblyVersion>12.12.0.0</AssemblyVersion>
+    <AssemblyVersion>12.12.1.0</AssemblyVersion>
+    <AssemblyVersion>12.13.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +30,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,6 +49,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -70,6 +76,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -92,6 +100,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -114,6 +124,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IProgress&lt;System.Int64&gt;</ReturnType>
@@ -137,6 +149,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
         <AssemblyVersion>12.12.0.0</AssemblyVersion>
+        <AssemblyVersion>12.12.1.0</AssemblyVersion>
+        <AssemblyVersion>12.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.UploadTransferValidationOptions</ReturnType>
@@ -144,29 +158,6 @@
       <Docs>
         <summary>
             Optional override settings for this client's <see cref="P:Azure.Storage.Files.DataLake.DataLakeClientOptions.TransferValidation" /> settings.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TransferValidationOptions">
-      <MemberSignature Language="C#" Value="public Azure.Storage.UploadTransferValidationOptions TransferValidationOptions { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.UploadTransferValidationOptions TransferValidationOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.Storage.Files.DataLake.Models.DataLakeFileAppendOptions.TransferValidationOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property TransferValidationOptions As UploadTransferValidationOptions" />
-      <MemberSignature Language="F#" Value="member this.TransferValidationOptions : Azure.Storage.UploadTransferValidationOptions with get, set" Usage="Azure.Storage.Files.DataLake.Models.DataLakeFileAppendOptions.TransferValidationOptions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Storage.Files.DataLake</AssemblyName>
-        <AssemblyVersion>12.12.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Storage.UploadTransferValidationOptions</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Optional <see cref="T:Azure.Storage.UploadTransferValidationOptions" /> for using transactional
-            checksum validation on append.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

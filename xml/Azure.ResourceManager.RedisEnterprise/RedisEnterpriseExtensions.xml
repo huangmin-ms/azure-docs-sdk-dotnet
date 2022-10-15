@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource&gt;</ReturnType>
@@ -63,6 +65,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource&gt;&gt;</ReturnType>
@@ -99,6 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource</ReturnType>
@@ -128,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterCollection</ReturnType>
@@ -152,6 +157,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource&gt;</ReturnType>
@@ -182,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource&gt;</ReturnType>
@@ -212,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RedisEnterprise.RedisEnterpriseDatabaseResource</ReturnType>
@@ -241,6 +249,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RedisEnterprise.Models.RedisEnterpriseOperationStatus&gt;</ReturnType>
@@ -279,6 +288,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RedisEnterprise.Models.RedisEnterpriseOperationStatus&gt;&gt;</ReturnType>
@@ -317,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RedisEnterprise</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RedisEnterprise.RedisEnterprisePrivateEndpointConnectionResource</ReturnType>

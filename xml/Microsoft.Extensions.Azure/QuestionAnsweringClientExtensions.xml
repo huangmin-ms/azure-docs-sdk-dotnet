@@ -8,6 +8,7 @@
     <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,6 +32,7 @@
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.AI.Language.QuestionAnswering.QuestionAnsweringClient,Azure.AI.Language.QuestionAnswering.QuestionAnsweringClientOptions&gt;</ReturnType>
@@ -70,6 +72,7 @@
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.AI.Language.QuestionAnswering.QuestionAnsweringClient,Azure.AI.Language.QuestionAnswering.QuestionAnsweringClientOptions&gt;</ReturnType>

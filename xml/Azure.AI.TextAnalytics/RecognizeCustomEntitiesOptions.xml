@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
     <AssemblyVersion>5.2.0.0</AssemblyVersion>
+    <AssemblyVersion>5.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -78,6 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,23 +95,19 @@
       </Docs>
     </Member>
     <Member MemberName="IncludeStatistics">
-      <MemberSignature Language="C#" Value="public bool? IncludeStatistics { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IncludeStatistics" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public bool? IncludeStatistics { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IncludeStatistics" />
       <MemberSignature Language="DocId" Value="P:Azure.AI.TextAnalytics.RecognizeCustomEntitiesOptions.IncludeStatistics" />
-      <MemberSignature Language="VB.NET" Value="Public Property IncludeStatistics As Nullable(Of Boolean)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.IncludeStatistics : Nullable&lt;bool&gt; with get, set" Usage="Azure.AI.TextAnalytics.RecognizeCustomEntitiesOptions.IncludeStatistics" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public bool IncludeStatistics { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeStatistics" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property IncludeStatistics As Boolean" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.IncludeStatistics : bool with get, set" Usage="Azure.AI.TextAnalytics.RecognizeCustomEntitiesOptions.IncludeStatistics" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeStatistics As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IncludeStatistics : Nullable&lt;bool&gt; with get, set" Usage="Azure.AI.TextAnalytics.RecognizeCustomEntitiesOptions.IncludeStatistics" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;System.Boolean&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Boolean</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

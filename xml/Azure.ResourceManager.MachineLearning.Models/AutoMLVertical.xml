@@ -1,8 +1,8 @@
 <Type Name="AutoMLVertical" FullName="Azure.ResourceManager.MachineLearning.Models.AutoMLVertical">
-  <TypeSignature Language="C#" Value="public class AutoMLVertical" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutoMLVertical extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class AutoMLVertical" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutoMLVertical extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.MachineLearning.Models.AutoMLVertical" />
-  <TypeSignature Language="VB.NET" Value="Public Class AutoMLVertical" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutoMLVertical" />
   <TypeSignature Language="F#" Value="type AutoMLVertical = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
@@ -23,10 +23,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AutoMLVertical ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="C#" Value="protected AutoMLVertical ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.Models.AutoMLVertical.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.BinaryData&gt;</ReturnType>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -75,6 +78,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.PolicyInsights.Models.ComponentEventDetails&gt;</ReturnType>
@@ -95,6 +99,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -115,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -135,32 +141,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Comma separated list of management group IDs, which represent the hierarchy of the management groups the resource is under. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OdataContext">
-      <MemberSignature Language="C#" Value="public string OdataContext { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string OdataContext" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.OdataContext" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OdataContext As String" />
-      <MemberSignature Language="F#" Value="member this.OdataContext : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.OdataContext" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> OData context string; used by OData clients to resolve type information based on metadata. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -175,32 +162,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> OData context string; used by OData clients to resolve type information based on metadata. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OdataId">
-      <MemberSignature Language="C#" Value="public string OdataId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string OdataId" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.OdataId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OdataId As String" />
-      <MemberSignature Language="F#" Value="member this.OdataId : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.OdataId" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> OData entity ID; always set to null since policy event records do not have an entity ID. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,6 +183,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -226,23 +195,19 @@
       </Docs>
     </Member>
     <Member MemberName="PolicyAssignmentId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyAssignmentId { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyAssignmentId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyAssignmentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyAssignmentId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyAssignmentId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyAssignmentId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyAssignmentId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string PolicyAssignmentId { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicyAssignmentId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyAssignmentId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyAssignmentId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyAssignmentId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PolicyAssignmentId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyAssignmentId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Policy assignment ID. </summary>
@@ -260,6 +225,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -280,6 +246,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -300,6 +267,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -320,6 +288,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -340,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -360,6 +330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -371,23 +342,19 @@
       </Docs>
     </Member>
     <Member MemberName="PolicyDefinitionId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyDefinitionId { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyDefinitionId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicyDefinitionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicyDefinitionId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyDefinitionId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDefinitionId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.PolicyDefinitionId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyDefinitionId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string PolicyDefinitionId { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicyDefinitionId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDefinitionId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.PolicyDefinitionId : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyDefinitionId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDefinitionId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PolicyDefinitionId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicyDefinitionId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Policy definition ID. </summary>
@@ -405,6 +372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -425,6 +393,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -445,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -456,23 +426,19 @@
       </Docs>
     </Member>
     <Member MemberName="PolicySetDefinitionId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicySetDefinitionId { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicySetDefinitionId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier PolicySetDefinitionId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier PolicySetDefinitionId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicySetDefinitionId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicySetDefinitionId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.PolicySetDefinitionId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicySetDefinitionId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string PolicySetDefinitionId { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicySetDefinitionId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicySetDefinitionId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.PolicySetDefinitionId : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicySetDefinitionId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicySetDefinitionId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.PolicySetDefinitionId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.PolicySetDefinitionId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Policy set definition ID, if the policy assignment is for a policy set. </summary>
@@ -490,6 +456,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -510,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -530,6 +498,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -550,6 +519,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -570,6 +540,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -581,23 +552,19 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ResourceId { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ResourceId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ResourceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ResourceId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string ResourceId { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ResourceId : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ResourceId : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Resource ID. </summary>
@@ -606,23 +573,19 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceLocation">
-      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation? ResourceLocation { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; ResourceLocation" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation? ResourceLocation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; ResourceLocation" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceLocation" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceLocation As Nullable(Of AzureLocation)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ResourceLocation : Nullable&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceLocation" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string ResourceLocation { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceLocation" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceLocation As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ResourceLocation : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceLocation" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceLocation As Nullable(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.ResourceLocation : Nullable&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceLocation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Resource location. </summary>
@@ -640,32 +603,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> List of resource tags. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ResourceType">
-      <MemberSignature Language="C#" Value="public string ResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceType" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceType" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceType As String" />
-      <MemberSignature Language="F#" Value="member this.ResourceType : string" Usage="Azure.ResourceManager.PolicyInsights.Models.PolicyEvent.ResourceType" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Resource type. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -680,6 +624,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -700,6 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -720,6 +666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -740,6 +687,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PolicyInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
