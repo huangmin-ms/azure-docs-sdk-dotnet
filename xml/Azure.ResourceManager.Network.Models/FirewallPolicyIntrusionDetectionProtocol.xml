@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -33,6 +34,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -56,26 +58,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> ANY. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ANY">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol ANY { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol ANY" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.ANY" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ANY As FirewallPolicyIntrusionDetectionProtocol" />
-      <MemberSignature Language="F#" Value="static member ANY : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.ANY" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
@@ -100,6 +83,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -126,6 +110,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,6 +143,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,6 +172,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
@@ -207,6 +194,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -234,6 +222,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
@@ -259,6 +248,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -286,26 +276,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TCP. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TCP">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol TCP { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol TCP" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.TCP" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TCP As FirewallPolicyIntrusionDetectionProtocol" />
-      <MemberSignature Language="F#" Value="static member TCP : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.TCP" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
@@ -327,6 +298,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -349,26 +321,7 @@
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> UDP. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="UDP">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol UDP { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol UDP" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.UDP" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property UDP As FirewallPolicyIntrusionDetectionProtocol" />
-      <MemberSignature Language="F#" Value="static member UDP : Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol" Usage="Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol.UDP" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.FirewallPolicyIntrusionDetectionProtocol</ReturnType>

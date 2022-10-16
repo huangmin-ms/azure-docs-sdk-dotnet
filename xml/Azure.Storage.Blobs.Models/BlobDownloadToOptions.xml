@@ -11,6 +11,7 @@
     <AssemblyVersion>12.13.0.0</AssemblyVersion>
     <AssemblyVersion>12.13.1.0</AssemblyVersion>
     <AssemblyVersion>12.14.0.0</AssemblyVersion>
+    <AssemblyVersion>12.15.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
         <AssemblyVersion>12.13.0.0</AssemblyVersion>
         <AssemblyVersion>12.13.1.0</AssemblyVersion>
         <AssemblyVersion>12.14.0.0</AssemblyVersion>
+        <AssemblyVersion>12.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,6 +59,7 @@
         <AssemblyVersion>12.13.0.0</AssemblyVersion>
         <AssemblyVersion>12.13.1.0</AssemblyVersion>
         <AssemblyVersion>12.14.0.0</AssemblyVersion>
+        <AssemblyVersion>12.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.Blobs.Models.BlobRequestConditions</ReturnType>
@@ -83,6 +86,7 @@
         <AssemblyVersion>12.13.0.0</AssemblyVersion>
         <AssemblyVersion>12.13.1.0</AssemblyVersion>
         <AssemblyVersion>12.14.0.0</AssemblyVersion>
+        <AssemblyVersion>12.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IProgress&lt;System.Int64&gt;</ReturnType>
@@ -109,6 +113,7 @@
         <AssemblyVersion>12.13.0.0</AssemblyVersion>
         <AssemblyVersion>12.13.1.0</AssemblyVersion>
         <AssemblyVersion>12.14.0.0</AssemblyVersion>
+        <AssemblyVersion>12.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.StorageTransferOptions</ReturnType>
@@ -131,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.Blobs</AssemblyName>
         <AssemblyVersion>12.14.0.0</AssemblyVersion>
+        <AssemblyVersion>12.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Storage.DownloadTransferValidationOptions</ReturnType>
@@ -138,32 +144,6 @@
       <Docs>
         <summary>
             Optional override settings for this client's <see cref="P:Azure.Storage.Blobs.BlobClientOptions.TransferValidation" /> settings.
-            This operation does not allow <see cref="P:Azure.Storage.DownloadTransferValidationOptions.AutoValidateChecksum" />
-            to be set false.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TransferValidationOptions">
-      <MemberSignature Language="C#" Value="public Azure.Storage.DownloadTransferValidationOptions TransferValidationOptions { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.DownloadTransferValidationOptions TransferValidationOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Models.BlobDownloadToOptions.TransferValidationOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property TransferValidationOptions As DownloadTransferValidationOptions" />
-      <MemberSignature Language="F#" Value="member this.TransferValidationOptions : Azure.Storage.DownloadTransferValidationOptions with get, set" Usage="Azure.Storage.Blobs.Models.BlobDownloadToOptions.TransferValidationOptions" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
-        <AssemblyVersion>12.14.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Storage.DownloadTransferValidationOptions</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Options for transfer validation settings on this operation.
-            When transfer validation options are set in the client, setting this parameter
-            acts as an override.
             This operation does not allow <see cref="P:Azure.Storage.DownloadTransferValidationOptions.AutoValidateChecksum" />
             to be set false.
             </summary>

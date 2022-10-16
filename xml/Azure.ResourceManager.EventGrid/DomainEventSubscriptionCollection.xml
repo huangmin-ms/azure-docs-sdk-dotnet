@@ -25,8 +25,8 @@
   <Docs>
     <summary>
             A class representing a collection of <see cref="T:Azure.ResourceManager.EventGrid.DomainEventSubscriptionResource" /> and their operations.
-            Each <see cref="T:Azure.ResourceManager.EventGrid.DomainEventSubscriptionResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.EventGrid.DomainResource" />.
-            To get a <see cref="T:Azure.ResourceManager.EventGrid.DomainEventSubscriptionCollection" /> instance call the GetDomainEventSubscriptions method from an instance of <see cref="T:Azure.ResourceManager.EventGrid.DomainResource" />.
+            Each <see cref="T:Azure.ResourceManager.EventGrid.DomainEventSubscriptionResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.EventGrid.EventGridDomainResource" />.
+            To get a <see cref="T:Azure.ResourceManager.EventGrid.DomainEventSubscriptionCollection" /> instance call the GetDomainEventSubscriptions method from an instance of <see cref="T:Azure.ResourceManager.EventGrid.EventGridDomainResource" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

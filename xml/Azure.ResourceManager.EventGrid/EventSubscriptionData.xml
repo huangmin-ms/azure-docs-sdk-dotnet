@@ -149,12 +149,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ExpirationTimeUtc">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpirationTimeUtc { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpirationTimeUtc" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.EventSubscriptionData.ExpirationTimeUtc" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExpirationTimeUtc As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ExpirationTimeUtc : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.EventGrid.EventSubscriptionData.ExpirationTimeUtc" />
+    <Member MemberName="ExpireOn">
+      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpireOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpireOn" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.EventSubscriptionData.ExpireOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpireOn As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.ExpireOn : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.EventGrid.EventSubscriptionData.ExpireOn" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
@@ -230,18 +230,18 @@
       </Docs>
     </Member>
     <Member MemberName="RetryPolicy">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.EventGrid.Models.RetryPolicy RetryPolicy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.EventGrid.Models.RetryPolicy RetryPolicy" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.EventGrid.Models.EventSubscriptionRetryPolicy RetryPolicy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.EventGrid.Models.EventSubscriptionRetryPolicy RetryPolicy" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.EventSubscriptionData.RetryPolicy" />
-      <MemberSignature Language="VB.NET" Value="Public Property RetryPolicy As RetryPolicy" />
-      <MemberSignature Language="F#" Value="member this.RetryPolicy : Azure.ResourceManager.EventGrid.Models.RetryPolicy with get, set" Usage="Azure.ResourceManager.EventGrid.EventSubscriptionData.RetryPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetryPolicy As EventSubscriptionRetryPolicy" />
+      <MemberSignature Language="F#" Value="member this.RetryPolicy : Azure.ResourceManager.EventGrid.Models.EventSubscriptionRetryPolicy with get, set" Usage="Azure.ResourceManager.EventGrid.EventSubscriptionData.RetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.EventGrid.Models.RetryPolicy</ReturnType>
+        <ReturnType>Azure.ResourceManager.EventGrid.Models.EventSubscriptionRetryPolicy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The retry policy for events. This can be used to configure maximum number of delivery attempts and time to live for events. </summary>

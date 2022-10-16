@@ -14,10 +14,10 @@
   <Interfaces />
   <Docs>
     <summary>
-            A Class representing a DynatraceSingleSignOnResource along with the instance operations that can be performed on it.
+            A Class representing a DynatraceSingleSignOn along with the instance operations that can be performed on it.
             If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource" />
             from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetDynatraceSingleSignOnResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Dynatrace.MonitorResource" /> using the GetDynatraceSingleSignOnResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Dynatrace.DynatraceMonitorResource" /> using the GetDynatraceSingleSignOn method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -69,18 +69,18 @@
       </Docs>
     </Member>
     <Member MemberName="Data">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData Data { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData Data" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData Data" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.Data" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As DynatraceSingleSignOnResourceData" />
-      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData" Usage="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As DynatraceSingleSignOnData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData" Usage="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.Data" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData</ReturnType>
+        <ReturnType>Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the data representing this Feature. </summary>
@@ -185,11 +185,11 @@
       </Docs>
     </Member>
     <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt; Update (Azure.WaitUntil waitUntil, Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt; Update(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.Update(Azure.WaitUntil,Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (waitUntil As WaitUntil, data As DynatraceSingleSignOnResourceData, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of DynatraceSingleSignOnResource)" />
-      <MemberSignature Language="F#" Value="abstract member Update : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&#xA;override this.Update : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;" Usage="dynatraceSingleSignOnResource.Update (waitUntil, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt; Update (Azure.WaitUntil waitUntil, Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt; Update(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.Update(Azure.WaitUntil,Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (waitUntil As WaitUntil, data As DynatraceSingleSignOnData, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation(Of DynatraceSingleSignOnResource)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&#xA;override this.Update : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;" Usage="dynatraceSingleSignOnResource.Update (waitUntil, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
@@ -200,7 +200,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="data" Type="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData" />
+        <Parameter Name="data" Type="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -220,11 +220,11 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt; UpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt; UpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (waitUntil As WaitUntil, data As DynatraceSingleSignOnResourceData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of DynatraceSingleSignOnResource))" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt;" Usage="dynatraceSingleSignOnResource.UpdateAsync (waitUntil, data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt; UpdateAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation`1&lt;class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt; UpdateAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource.UpdateAsync(Azure.WaitUntil,Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (waitUntil As WaitUntil, data As DynatraceSingleSignOnData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation(Of DynatraceSingleSignOnResource))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.WaitUntil * Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResource&gt;&gt;" Usage="dynatraceSingleSignOnResource.UpdateAsync (waitUntil, data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Dynatrace</AssemblyName>
@@ -235,7 +235,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
-        <Parameter Name="data" Type="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnResourceData" />
+        <Parameter Name="data" Type="Azure.ResourceManager.Dynatrace.DynatraceSingleSignOnData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

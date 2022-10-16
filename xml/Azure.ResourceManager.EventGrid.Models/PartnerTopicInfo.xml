@@ -34,18 +34,18 @@
       </Docs>
     </Member>
     <Member MemberName="AzureSubscriptionId">
-      <MemberSignature Language="C#" Value="public string AzureSubscriptionId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string AzureSubscriptionId" />
+      <MemberSignature Language="C#" Value="public Guid? AzureSubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; AzureSubscriptionId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.AzureSubscriptionId" />
-      <MemberSignature Language="VB.NET" Value="Public Property AzureSubscriptionId As String" />
-      <MemberSignature Language="F#" Value="member this.AzureSubscriptionId : string with get, set" Usage="Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.AzureSubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureSubscriptionId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.AzureSubscriptionId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.AzureSubscriptionId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -57,18 +57,18 @@
       </Docs>
     </Member>
     <Member MemberName="EventTypeInfo">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.EventGrid.Models.EventTypeInfo EventTypeInfo { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.EventGrid.Models.EventTypeInfo EventTypeInfo" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.EventGrid.Models.PartnerTopicEventTypeInfo EventTypeInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.EventGrid.Models.PartnerTopicEventTypeInfo EventTypeInfo" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.EventTypeInfo" />
-      <MemberSignature Language="VB.NET" Value="Public Property EventTypeInfo As EventTypeInfo" />
-      <MemberSignature Language="F#" Value="member this.EventTypeInfo : Azure.ResourceManager.EventGrid.Models.EventTypeInfo with get, set" Usage="Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.EventTypeInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventTypeInfo As PartnerTopicEventTypeInfo" />
+      <MemberSignature Language="F#" Value="member this.EventTypeInfo : Azure.ResourceManager.EventGrid.Models.PartnerTopicEventTypeInfo with get, set" Usage="Azure.ResourceManager.EventGrid.Models.PartnerTopicInfo.EventTypeInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.EventGrid</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.EventGrid.Models.EventTypeInfo</ReturnType>
+        <ReturnType>Azure.ResourceManager.EventGrid.Models.PartnerTopicEventTypeInfo</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

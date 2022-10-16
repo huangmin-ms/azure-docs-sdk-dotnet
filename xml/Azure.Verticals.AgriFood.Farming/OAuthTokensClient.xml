@@ -34,10 +34,34 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public OAuthTokensClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options = default);" />
+      <MemberSignature Language="C#" Value="public OAuthTokensClient (Uri endpoint, Azure.Core.TokenCredential credential);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.#ctor(System.Uri,Azure.Core.TokenCredential)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential)" />
+      <MemberSignature Language="F#" Value="new Azure.Verticals.AgriFood.Farming.OAuthTokensClient : Uri * Azure.Core.TokenCredential -&gt; Azure.Verticals.AgriFood.Farming.OAuthTokensClient" Usage="new Azure.Verticals.AgriFood.Farming.OAuthTokensClient (endpoint, credential)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> The endpoint of your FarmBeats resource (protocol and hostname, for example: https://{resourceName}.farmbeats.azure.net). </param>
+        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <summary> Initializes a new instance of OAuthTokensClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OAuthTokensClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, Optional options As FarmBeatsClientOptions = Nothing)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, options As FarmBeatsClientOptions)" />
       <MemberSignature Language="F#" Value="new Azure.Verticals.AgriFood.Farming.OAuthTokensClient : Uri * Azure.Core.TokenCredential * Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions -&gt; Azure.Verticals.AgriFood.Farming.OAuthTokensClient" Usage="new Azure.Verticals.AgriFood.Farming.OAuthTokensClient (endpoint, credential, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -55,74 +79,196 @@
         <param name="options"> The options for configuring the client. </param>
         <summary> Initializes a new instance of OAuthTokensClient. </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="CreateCascadeDeleteJob">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response CreateCascadeDeleteJob (string jobId, string farmerId, string oauthProviderId, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response CreateCascadeDeleteJob(string jobId, string farmerId, string oauthProviderId, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.CreateCascadeDeleteJob(System.String,System.String,System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCascadeDeleteJob (jobId As String, farmerId As String, oauthProviderId As String, Optional requestOptions As RequestOptions = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member CreateCascadeDeleteJob : string * string * string * Azure.RequestOptions -&gt; Azure.Response&#xA;override this.CreateCascadeDeleteJob : string * string * string * Azure.RequestOptions -&gt; Azure.Response" Usage="oAuthTokensClient.CreateCascadeDeleteJob (jobId, farmerId, oauthProviderId, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; CreateCascadeDeleteJob (Azure.WaitUntil waitUntil, string jobId, string farmerId, string oauthProviderId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; CreateCascadeDeleteJob(valuetype Azure.WaitUntil waitUntil, string jobId, string farmerId, string oauthProviderId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.CreateCascadeDeleteJob(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCascadeDeleteJob (waitUntil As WaitUntil, jobId As String, farmerId As String, oauthProviderId As String, Optional context As RequestContext = Nothing) As Operation(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member CreateCascadeDeleteJob : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.CreateCascadeDeleteJob : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="oAuthTokensClient.CreateCascadeDeleteJob (waitUntil, jobId, farmerId, oauthProviderId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response</ReturnType>
+        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="jobId" Type="System.String" />
         <Parameter Name="farmerId" Type="System.String" />
         <Parameter Name="oauthProviderId" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
         <param name="jobId"> Job ID supplied by end user. </param>
         <param name="farmerId"> ID of the farmer. </param>
         <param name="oauthProviderId"> ID of the OAuthProvider. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Create a cascade delete job for OAuth tokens. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>CascadeDeleteJob</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID.
+              resourceId: string, # Required. The id of the resource.
+              resourceType: string, # Required. The type of the resource.
+              id: string, # Optional. Unique job id.
+              status: string, # Optional. Status of the job.
+            Possible values: 'Waiting', 'Running', 'Succeeded', 'Failed', 'Cancelled'.
+              durationInSeconds: number, # Optional. Duration of the job in seconds.
+              message: string, # Optional. Status message to capture more details of the job.
+              createdDateTime: string (ISO 8601 Format), # Optional. Job created at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              lastActionDateTime: string (ISO 8601 Format), # Optional. Job was last acted upon at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              startTime: string (ISO 8601 Format), # Optional. Job start time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              endTime: string (ISO 8601 Format), # Optional. Job end time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              name: string, # Optional. Name to identify resource.
+              description: string, # Optional. Textual description of the resource.
+              properties: Dictionary&lt;string, AnyObject&gt;, # Optional. A collection of key value pairs that belongs to the resource.
+            Each pair must not have a key greater than 50 characters
+            and must not have a value greater than 150 characters.
+            Note: A maximum of 25 key value pairs can be provided for a resource and only string and numeral values are supported.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" />, <paramref name="farmerId" /> or <paramref name="oauthProviderId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call CreateCascadeDeleteJob with required parameters and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var operation = client.CreateCascadeDeleteJob(WaitUntil.Completed, "<jobId>", "<farmerId>", "<oauthProviderId>");
+            
+            BinaryData data = operation.WaitForCompletion();
+            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+            Console.WriteLine(result.GetProperty("farmerId").ToString());
+            Console.WriteLine(result.GetProperty("resourceId").ToString());
+            Console.WriteLine(result.GetProperty("resourceType").ToString());
+            Console.WriteLine(result.GetProperty("id").ToString());
+            Console.WriteLine(result.GetProperty("status").ToString());
+            Console.WriteLine(result.GetProperty("durationInSeconds").ToString());
+            Console.WriteLine(result.GetProperty("message").ToString());
+            Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+            Console.WriteLine(result.GetProperty("lastActionDateTime").ToString());
+            Console.WriteLine(result.GetProperty("startTime").ToString());
+            Console.WriteLine(result.GetProperty("endTime").ToString());
+            Console.WriteLine(result.GetProperty("name").ToString());
+            Console.WriteLine(result.GetProperty("description").ToString());
+            Console.WriteLine(result.GetProperty("properties").GetProperty("<test>").ToString());
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="CreateCascadeDeleteJobAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; CreateCascadeDeleteJobAsync (string jobId, string farmerId, string oauthProviderId, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; CreateCascadeDeleteJobAsync(string jobId, string farmerId, string oauthProviderId, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.CreateCascadeDeleteJobAsync(System.String,System.String,System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCascadeDeleteJobAsync (jobId As String, farmerId As String, oauthProviderId As String, Optional requestOptions As RequestOptions = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member CreateCascadeDeleteJobAsync : string * string * string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.CreateCascadeDeleteJobAsync : string * string * string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.CreateCascadeDeleteJobAsync (jobId, farmerId, oauthProviderId, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; CreateCascadeDeleteJobAsync (Azure.WaitUntil waitUntil, string jobId, string farmerId, string oauthProviderId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; CreateCascadeDeleteJobAsync(valuetype Azure.WaitUntil waitUntil, string jobId, string farmerId, string oauthProviderId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.CreateCascadeDeleteJobAsync(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCascadeDeleteJobAsync (waitUntil As WaitUntil, jobId As String, farmerId As String, oauthProviderId As String, Optional context As RequestContext = Nothing) As Task(Of Operation(Of BinaryData))" />
+      <MemberSignature Language="F#" Value="abstract member CreateCascadeDeleteJobAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.CreateCascadeDeleteJobAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="oAuthTokensClient.CreateCascadeDeleteJobAsync (waitUntil, jobId, farmerId, oauthProviderId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
         <Parameter Name="jobId" Type="System.String" />
         <Parameter Name="farmerId" Type="System.String" />
         <Parameter Name="oauthProviderId" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
         <param name="jobId"> Job ID supplied by end user. </param>
         <param name="farmerId"> ID of the farmer. </param>
         <param name="oauthProviderId"> ID of the OAuthProvider. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Create a cascade delete job for OAuth tokens. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>CascadeDeleteJob</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID.
+              resourceId: string, # Required. The id of the resource.
+              resourceType: string, # Required. The type of the resource.
+              id: string, # Optional. Unique job id.
+              status: string, # Optional. Status of the job.
+            Possible values: 'Waiting', 'Running', 'Succeeded', 'Failed', 'Cancelled'.
+              durationInSeconds: number, # Optional. Duration of the job in seconds.
+              message: string, # Optional. Status message to capture more details of the job.
+              createdDateTime: string (ISO 8601 Format), # Optional. Job created at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              lastActionDateTime: string (ISO 8601 Format), # Optional. Job was last acted upon at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              startTime: string (ISO 8601 Format), # Optional. Job start time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              endTime: string (ISO 8601 Format), # Optional. Job end time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              name: string, # Optional. Name to identify resource.
+              description: string, # Optional. Textual description of the resource.
+              properties: Dictionary&lt;string, AnyObject&gt;, # Optional. A collection of key value pairs that belongs to the resource.
+            Each pair must not have a key greater than 50 characters
+            and must not have a value greater than 150 characters.
+            Note: A maximum of 25 key value pairs can be provided for a resource and only string and numeral values are supported.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" />, <paramref name="farmerId" /> or <paramref name="oauthProviderId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call CreateCascadeDeleteJobAsync with required parameters and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var operation = await client.CreateCascadeDeleteJobAsync(WaitUntil.Completed, "<jobId>", "<farmerId>", "<oauthProviderId>");
+            
+            BinaryData data = await operation.WaitForCompletionAsync();
+            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+            Console.WriteLine(result.GetProperty("farmerId").ToString());
+            Console.WriteLine(result.GetProperty("resourceId").ToString());
+            Console.WriteLine(result.GetProperty("resourceType").ToString());
+            Console.WriteLine(result.GetProperty("id").ToString());
+            Console.WriteLine(result.GetProperty("status").ToString());
+            Console.WriteLine(result.GetProperty("durationInSeconds").ToString());
+            Console.WriteLine(result.GetProperty("message").ToString());
+            Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+            Console.WriteLine(result.GetProperty("lastActionDateTime").ToString());
+            Console.WriteLine(result.GetProperty("startTime").ToString());
+            Console.WriteLine(result.GetProperty("endTime").ToString());
+            Console.WriteLine(result.GetProperty("name").ToString());
+            Console.WriteLine(result.GetProperty("description").ToString());
+            Console.WriteLine(result.GetProperty("properties").GetProperty("<test>").ToString());
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetCascadeDeleteJobDetails">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response GetCascadeDeleteJobDetails (string jobId, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetCascadeDeleteJobDetails(string jobId, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetCascadeDeleteJobDetails(System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCascadeDeleteJobDetails (jobId As String, Optional requestOptions As RequestOptions = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member GetCascadeDeleteJobDetails : string * Azure.RequestOptions -&gt; Azure.Response&#xA;override this.GetCascadeDeleteJobDetails : string * Azure.RequestOptions -&gt; Azure.Response" Usage="oAuthTokensClient.GetCascadeDeleteJobDetails (jobId, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetCascadeDeleteJobDetails (string jobId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetCascadeDeleteJobDetails(string jobId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetCascadeDeleteJobDetails(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCascadeDeleteJobDetails (jobId As String, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetCascadeDeleteJobDetails : string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetCascadeDeleteJobDetails : string * Azure.RequestContext -&gt; Azure.Response" Usage="oAuthTokensClient.GetCascadeDeleteJobDetails (jobId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
@@ -133,22 +279,78 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="jobId" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="jobId"> ID of the job. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get cascade delete job details for OAuth tokens for specified job ID. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>CascadeDeleteJob</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID.
+              resourceId: string, # Required. The id of the resource.
+              resourceType: string, # Required. The type of the resource.
+              id: string, # Optional. Unique job id.
+              status: string, # Optional. Status of the job.
+            Possible values: 'Waiting', 'Running', 'Succeeded', 'Failed', 'Cancelled'.
+              durationInSeconds: number, # Optional. Duration of the job in seconds.
+              message: string, # Optional. Status message to capture more details of the job.
+              createdDateTime: string (ISO 8601 Format), # Optional. Job created at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              lastActionDateTime: string (ISO 8601 Format), # Optional. Job was last acted upon at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              startTime: string (ISO 8601 Format), # Optional. Job start time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              endTime: string (ISO 8601 Format), # Optional. Job end time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              name: string, # Optional. Name to identify resource.
+              description: string, # Optional. Textual description of the resource.
+              properties: Dictionary&lt;string, AnyObject&gt;, # Optional. A collection of key value pairs that belongs to the resource.
+            Each pair must not have a key greater than 50 characters
+            and must not have a value greater than 150 characters.
+            Note: A maximum of 25 key value pairs can be provided for a resource and only string and numeral values are supported.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetCascadeDeleteJobDetails with required parameters and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            Response response = client.GetCascadeDeleteJobDetails("<jobId>");
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.GetProperty("farmerId").ToString());
+            Console.WriteLine(result.GetProperty("resourceId").ToString());
+            Console.WriteLine(result.GetProperty("resourceType").ToString());
+            Console.WriteLine(result.GetProperty("id").ToString());
+            Console.WriteLine(result.GetProperty("status").ToString());
+            Console.WriteLine(result.GetProperty("durationInSeconds").ToString());
+            Console.WriteLine(result.GetProperty("message").ToString());
+            Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+            Console.WriteLine(result.GetProperty("lastActionDateTime").ToString());
+            Console.WriteLine(result.GetProperty("startTime").ToString());
+            Console.WriteLine(result.GetProperty("endTime").ToString());
+            Console.WriteLine(result.GetProperty("name").ToString());
+            Console.WriteLine(result.GetProperty("description").ToString());
+            Console.WriteLine(result.GetProperty("properties").GetProperty("<test>").ToString());
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetCascadeDeleteJobDetailsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetCascadeDeleteJobDetailsAsync (string jobId, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetCascadeDeleteJobDetailsAsync(string jobId, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetCascadeDeleteJobDetailsAsync(System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCascadeDeleteJobDetailsAsync (jobId As String, Optional requestOptions As RequestOptions = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member GetCascadeDeleteJobDetailsAsync : string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetCascadeDeleteJobDetailsAsync : string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.GetCascadeDeleteJobDetailsAsync (jobId, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetCascadeDeleteJobDetailsAsync (string jobId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetCascadeDeleteJobDetailsAsync(string jobId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetCascadeDeleteJobDetailsAsync(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCascadeDeleteJobDetailsAsync (jobId As String, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetCascadeDeleteJobDetailsAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetCascadeDeleteJobDetailsAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.GetCascadeDeleteJobDetailsAsync (jobId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
@@ -159,22 +361,78 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="jobId" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="jobId"> ID of the job. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get cascade delete job details for OAuth tokens for specified job ID. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for the response payload.
+            
+            Response Body:
+            
+            Schema for <c>CascadeDeleteJob</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID.
+              resourceId: string, # Required. The id of the resource.
+              resourceType: string, # Required. The type of the resource.
+              id: string, # Optional. Unique job id.
+              status: string, # Optional. Status of the job.
+            Possible values: 'Waiting', 'Running', 'Succeeded', 'Failed', 'Cancelled'.
+              durationInSeconds: number, # Optional. Duration of the job in seconds.
+              message: string, # Optional. Status message to capture more details of the job.
+              createdDateTime: string (ISO 8601 Format), # Optional. Job created at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              lastActionDateTime: string (ISO 8601 Format), # Optional. Job was last acted upon at dateTime. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              startTime: string (ISO 8601 Format), # Optional. Job start time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              endTime: string (ISO 8601 Format), # Optional. Job end time when available. Sample format: yyyy-MM-ddTHH:mm:ssZ.
+              name: string, # Optional. Name to identify resource.
+              description: string, # Optional. Textual description of the resource.
+              properties: Dictionary&lt;string, AnyObject&gt;, # Optional. A collection of key value pairs that belongs to the resource.
+            Each pair must not have a key greater than 50 characters
+            and must not have a value greater than 150 characters.
+            Note: A maximum of 25 key value pairs can be provided for a resource and only string and numeral values are supported.
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobId" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetCascadeDeleteJobDetailsAsync with required parameters and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            Response response = await client.GetCascadeDeleteJobDetailsAsync("<jobId>");
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.GetProperty("farmerId").ToString());
+            Console.WriteLine(result.GetProperty("resourceId").ToString());
+            Console.WriteLine(result.GetProperty("resourceType").ToString());
+            Console.WriteLine(result.GetProperty("id").ToString());
+            Console.WriteLine(result.GetProperty("status").ToString());
+            Console.WriteLine(result.GetProperty("durationInSeconds").ToString());
+            Console.WriteLine(result.GetProperty("message").ToString());
+            Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+            Console.WriteLine(result.GetProperty("lastActionDateTime").ToString());
+            Console.WriteLine(result.GetProperty("startTime").ToString());
+            Console.WriteLine(result.GetProperty("endTime").ToString());
+            Console.WriteLine(result.GetProperty("name").ToString());
+            Console.WriteLine(result.GetProperty("description").ToString());
+            Console.WriteLine(result.GetProperty("properties").GetProperty("<test>").ToString());
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetOAuthConnectionLink">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response GetOAuthConnectionLink (Azure.Core.RequestContent requestBody, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetOAuthConnectionLink(class Azure.Core.RequestContent requestBody, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthConnectionLink(Azure.Core.RequestContent,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthConnectionLink (requestBody As RequestContent, Optional requestOptions As RequestOptions = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member GetOAuthConnectionLink : Azure.Core.RequestContent * Azure.RequestOptions -&gt; Azure.Response&#xA;override this.GetOAuthConnectionLink : Azure.Core.RequestContent * Azure.RequestOptions -&gt; Azure.Response" Usage="oAuthTokensClient.GetOAuthConnectionLink (requestBody, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetOAuthConnectionLink (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetOAuthConnectionLink(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthConnectionLink(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthConnectionLink (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetOAuthConnectionLink : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetOAuthConnectionLink : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="oAuthTokensClient.GetOAuthConnectionLink (content, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
@@ -184,25 +442,72 @@
         <ReturnType>Azure.Response</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="requestBody" Type="Azure.Core.RequestContent" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
-        <param name="requestBody"> The request body. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Returns Connection link needed in the OAuth flow. </summary>
-        <returns>To be added.</returns>
+        <returns> The response returned from the service. </returns>
         <remarks>
-            Schema for <c>Request Body</c>:
-            <list type="table"><listeader><term>Name</term><term>Type</term><term>Required</term><term>Description</term></listeader><item><term>farmerId</term><term>string</term><term>Yes</term><term> ID of the farmer. </term></item><item><term>oAuthProviderId</term><term>string</term><term>Yes</term><term> ID of the OAuthProvider. </term></item><item><term>userRedirectLink</term><term>string</term><term>Yes</term><term> Link to redirect the user to, at the end of the oauth flow. </term></item><item><term>userRedirectState</term><term>string</term><term /><term> State to provide back when redirecting the user, at the end of the oauth flow. </term></item></list></remarks>
+            Below is the JSON schema for the request payload.
+            
+            Request Body:
+            
+            Schema for <c>OAuthConnectRequest</c>:
+            <code>{
+              farmerId: string, # Required. ID of the farmer.
+              oAuthProviderId: string, # Required. ID of the OAuthProvider.
+              userRedirectLink: string, # Required. Link to redirect the user to, at the end of the oauth flow.
+              userRedirectState: string, # Optional. State to provide back when redirecting the user, at the end of the oauth flow.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetOAuthConnectionLink with required request content, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var data = new {
+                farmerId = "<farmerId>",
+                oAuthProviderId = "<oAuthProviderId>",
+                userRedirectLink = "<userRedirectLink>",
+            };
+            
+            Response response = client.GetOAuthConnectionLink(RequestContent.Create(data));
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.ToString());
+            ]]></code>
+            This sample shows how to call GetOAuthConnectionLink with all request content, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var data = new {
+                farmerId = "<farmerId>",
+                oAuthProviderId = "<oAuthProviderId>",
+                userRedirectLink = "<userRedirectLink>",
+                userRedirectState = "<userRedirectState>",
+            };
+            
+            Response response = client.GetOAuthConnectionLink(RequestContent.Create(data));
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.ToString());
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetOAuthConnectionLinkAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetOAuthConnectionLinkAsync (Azure.Core.RequestContent requestBody, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetOAuthConnectionLinkAsync(class Azure.Core.RequestContent requestBody, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthConnectionLinkAsync(Azure.Core.RequestContent,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthConnectionLinkAsync (requestBody As RequestContent, Optional requestOptions As RequestOptions = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member GetOAuthConnectionLinkAsync : Azure.Core.RequestContent * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetOAuthConnectionLinkAsync : Azure.Core.RequestContent * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.GetOAuthConnectionLinkAsync (requestBody, requestOptions)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetOAuthConnectionLinkAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetOAuthConnectionLinkAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthConnectionLinkAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthConnectionLinkAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetOAuthConnectionLinkAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetOAuthConnectionLinkAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.GetOAuthConnectionLinkAsync (content, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
@@ -212,32 +517,79 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="requestBody" Type="Azure.Core.RequestContent" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
-        <param name="requestBody"> The request body. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Returns Connection link needed in the OAuth flow. </summary>
-        <returns>To be added.</returns>
+        <returns> The response returned from the service. </returns>
         <remarks>
-            Schema for <c>Request Body</c>:
-            <list type="table"><listeader><term>Name</term><term>Type</term><term>Required</term><term>Description</term></listeader><item><term>farmerId</term><term>string</term><term>Yes</term><term> ID of the farmer. </term></item><item><term>oAuthProviderId</term><term>string</term><term>Yes</term><term> ID of the OAuthProvider. </term></item><item><term>userRedirectLink</term><term>string</term><term>Yes</term><term> Link to redirect the user to, at the end of the oauth flow. </term></item><item><term>userRedirectState</term><term>string</term><term /><term> State to provide back when redirecting the user, at the end of the oauth flow. </term></item></list></remarks>
+            Below is the JSON schema for the request payload.
+            
+            Request Body:
+            
+            Schema for <c>OAuthConnectRequest</c>:
+            <code>{
+              farmerId: string, # Required. ID of the farmer.
+              oAuthProviderId: string, # Required. ID of the OAuthProvider.
+              userRedirectLink: string, # Required. Link to redirect the user to, at the end of the oauth flow.
+              userRedirectState: string, # Optional. State to provide back when redirecting the user, at the end of the oauth flow.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetOAuthConnectionLinkAsync with required request content, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var data = new {
+                farmerId = "<farmerId>",
+                oAuthProviderId = "<oAuthProviderId>",
+                userRedirectLink = "<userRedirectLink>",
+            };
+            
+            Response response = await client.GetOAuthConnectionLinkAsync(RequestContent.Create(data));
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.ToString());
+            ]]></code>
+            This sample shows how to call GetOAuthConnectionLinkAsync with all request content, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            var data = new {
+                farmerId = "<farmerId>",
+                oAuthProviderId = "<oAuthProviderId>",
+                userRedirectLink = "<userRedirectLink>",
+                userRedirectState = "<userRedirectState>",
+            };
+            
+            Response response = await client.GetOAuthConnectionLinkAsync(RequestContent.Create(data));
+            
+            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+            Console.WriteLine(result.ToString());
+            ]]></code></example>
       </Docs>
     </Member>
-    <Member MemberName="List">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response List (System.Collections.Generic.IEnumerable&lt;string&gt; authProviderIds = default, System.Collections.Generic.IEnumerable&lt;string&gt; farmerIds = default, bool? isValid = default, DateTimeOffset? minCreatedDateTime = default, DateTimeOffset? maxCreatedDateTime = default, DateTimeOffset? minLastModifiedDateTime = default, DateTimeOffset? maxLastModifiedDateTime = default, int? maxPageSize = default, string skipToken = default, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response List(class System.Collections.Generic.IEnumerable`1&lt;string&gt; authProviderIds, class System.Collections.Generic.IEnumerable`1&lt;string&gt; farmerIds, valuetype System.Nullable`1&lt;bool&gt; isValid, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minLastModifiedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxLastModifiedDateTime, valuetype System.Nullable`1&lt;int32&gt; maxPageSize, string skipToken, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.List(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function List (Optional authProviderIds As IEnumerable(Of String) = Nothing, Optional farmerIds As IEnumerable(Of String) = Nothing, Optional isValid As Nullable(Of Boolean) = Nothing, Optional minCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional minLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxPageSize As Nullable(Of Integer) = Nothing, Optional skipToken As String = Nothing, Optional requestOptions As RequestOptions = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member List : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestOptions -&gt; Azure.Response&#xA;override this.List : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestOptions -&gt; Azure.Response" Usage="oAuthTokensClient.List (authProviderIds, farmerIds, isValid, minCreatedDateTime, maxCreatedDateTime, minLastModifiedDateTime, maxLastModifiedDateTime, maxPageSize, skipToken, requestOptions)" />
+    <Member MemberName="GetOAuthTokens">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetOAuthTokens (System.Collections.Generic.IEnumerable&lt;string&gt; authProviderIds = default, System.Collections.Generic.IEnumerable&lt;string&gt; farmerIds = default, bool? isValid = default, DateTimeOffset? minCreatedDateTime = default, DateTimeOffset? maxCreatedDateTime = default, DateTimeOffset? minLastModifiedDateTime = default, DateTimeOffset? maxLastModifiedDateTime = default, int? maxPageSize = default, string skipToken = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetOAuthTokens(class System.Collections.Generic.IEnumerable`1&lt;string&gt; authProviderIds, class System.Collections.Generic.IEnumerable`1&lt;string&gt; farmerIds, valuetype System.Nullable`1&lt;bool&gt; isValid, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minLastModifiedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxLastModifiedDateTime, valuetype System.Nullable`1&lt;int32&gt; maxPageSize, string skipToken, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthTokens(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthTokens (Optional authProviderIds As IEnumerable(Of String) = Nothing, Optional farmerIds As IEnumerable(Of String) = Nothing, Optional isValid As Nullable(Of Boolean) = Nothing, Optional minCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional minLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxPageSize As Nullable(Of Integer) = Nothing, Optional skipToken As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetOAuthTokens : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetOAuthTokens : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="oAuthTokensClient.GetOAuthTokens (authProviderIds, farmerIds, isValid, minCreatedDateTime, maxCreatedDateTime, minLastModifiedDateTime, maxLastModifiedDateTime, maxPageSize, skipToken, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response</ReturnType>
+        <ReturnType>Azure.Pageable&lt;System.BinaryData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="authProviderIds" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
@@ -249,7 +601,7 @@
         <Parameter Name="maxLastModifiedDateTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="maxPageSize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="skipToken" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="authProviderIds"> Name of AuthProvider. </param>
@@ -261,29 +613,74 @@
         <param name="maxLastModifiedDateTime"> Maximum last modified date of resource (inclusive). </param>
         <param name="maxPageSize">
             Maximum number of items needed (inclusive).
-            
             Minimum = 10, Maximum = 1000, Default value = 50.
             </param>
         <param name="skipToken"> Skip token for getting next set of results. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Returns a list of OAuthToken documents. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for one item in the pageable response.
+            
+            Response Body:
+            
+            Schema for <c>OAuthTokenListResponseValue</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID for this OAuth config.
+              authProviderId: string, # Required. ID of the OAuth provider resource containing app information.
+              isValid: boolean, # Optional. An optional flag indicating whether the token is a valid or expired (Default value: true).
+              eTag: string, # Optional. The ETag value to implement optimistic concurrency.
+              createdDateTime: string (ISO 8601 Format), # Optional. Date-time when resource was created, sample format: yyyy-MM-ddTHH:mm:ssZ.
+              modifiedDateTime: string (ISO 8601 Format), # Optional. Date-time when resource was last modified, sample format: yyyy-MM-ddTHH:mm:ssZ.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetOAuthTokens and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            foreach (var data in client.GetOAuthTokens())
+            {
+                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("farmerId").ToString());
+                Console.WriteLine(result.GetProperty("authProviderId").ToString());
+            }
+            ]]></code>
+            This sample shows how to call GetOAuthTokens with all parameters, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            foreach (var data in client.GetOAuthTokens(new String[]{"<authProviderIds>"}, new String[]{"<farmerIds>"}, true, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, 1234, "<skipToken>"))
+            {
+                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("farmerId").ToString());
+                Console.WriteLine(result.GetProperty("authProviderId").ToString());
+                Console.WriteLine(result.GetProperty("isValid").ToString());
+                Console.WriteLine(result.GetProperty("eTag").ToString());
+                Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+                Console.WriteLine(result.GetProperty("modifiedDateTime").ToString());
+            }
+            ]]></code></example>
       </Docs>
     </Member>
-    <Member MemberName="ListAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; ListAsync (System.Collections.Generic.IEnumerable&lt;string&gt; authProviderIds = default, System.Collections.Generic.IEnumerable&lt;string&gt; farmerIds = default, bool? isValid = default, DateTimeOffset? minCreatedDateTime = default, DateTimeOffset? maxCreatedDateTime = default, DateTimeOffset? minLastModifiedDateTime = default, DateTimeOffset? maxLastModifiedDateTime = default, int? maxPageSize = default, string skipToken = default, Azure.RequestOptions requestOptions = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; ListAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; authProviderIds, class System.Collections.Generic.IEnumerable`1&lt;string&gt; farmerIds, valuetype System.Nullable`1&lt;bool&gt; isValid, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minLastModifiedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxLastModifiedDateTime, valuetype System.Nullable`1&lt;int32&gt; maxPageSize, string skipToken, class Azure.RequestOptions requestOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.ListAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},System.String,Azure.RequestOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function ListAsync (Optional authProviderIds As IEnumerable(Of String) = Nothing, Optional farmerIds As IEnumerable(Of String) = Nothing, Optional isValid As Nullable(Of Boolean) = Nothing, Optional minCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional minLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxPageSize As Nullable(Of Integer) = Nothing, Optional skipToken As String = Nothing, Optional requestOptions As RequestOptions = Nothing) As Task(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member ListAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.ListAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestOptions -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="oAuthTokensClient.ListAsync (authProviderIds, farmerIds, isValid, minCreatedDateTime, maxCreatedDateTime, minLastModifiedDateTime, maxLastModifiedDateTime, maxPageSize, skipToken, requestOptions)" />
+    <Member MemberName="GetOAuthTokensAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetOAuthTokensAsync (System.Collections.Generic.IEnumerable&lt;string&gt; authProviderIds = default, System.Collections.Generic.IEnumerable&lt;string&gt; farmerIds = default, bool? isValid = default, DateTimeOffset? minCreatedDateTime = default, DateTimeOffset? maxCreatedDateTime = default, DateTimeOffset? minLastModifiedDateTime = default, DateTimeOffset? maxLastModifiedDateTime = default, int? maxPageSize = default, string skipToken = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetOAuthTokensAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; authProviderIds, class System.Collections.Generic.IEnumerable`1&lt;string&gt; farmerIds, valuetype System.Nullable`1&lt;bool&gt; isValid, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxCreatedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; minLastModifiedDateTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; maxLastModifiedDateTime, valuetype System.Nullable`1&lt;int32&gt; maxPageSize, string skipToken, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.OAuthTokensClient.GetOAuthTokensAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOAuthTokensAsync (Optional authProviderIds As IEnumerable(Of String) = Nothing, Optional farmerIds As IEnumerable(Of String) = Nothing, Optional isValid As Nullable(Of Boolean) = Nothing, Optional minCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxCreatedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional minLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxLastModifiedDateTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxPageSize As Nullable(Of Integer) = Nothing, Optional skipToken As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetOAuthTokensAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetOAuthTokensAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;bool&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="oAuthTokensClient.GetOAuthTokensAsync (authProviderIds, farmerIds, isValid, minCreatedDateTime, maxCreatedDateTime, minLastModifiedDateTime, maxLastModifiedDateTime, maxPageSize, skipToken, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;System.BinaryData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="authProviderIds" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
@@ -295,7 +692,7 @@
         <Parameter Name="maxLastModifiedDateTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="maxPageSize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="skipToken" Type="System.String" />
-        <Parameter Name="requestOptions" Type="Azure.RequestOptions" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="authProviderIds"> Name of AuthProvider. </param>
@@ -307,14 +704,59 @@
         <param name="maxLastModifiedDateTime"> Maximum last modified date of resource (inclusive). </param>
         <param name="maxPageSize">
             Maximum number of items needed (inclusive).
-            
             Minimum = 10, Maximum = 1000, Default value = 50.
             </param>
         <param name="skipToken"> Skip token for getting next set of results. </param>
-        <param name="requestOptions"> The request options. </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Returns a list of OAuthToken documents. </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
+        <remarks>
+            Below is the JSON schema for one item in the pageable response.
+            
+            Response Body:
+            
+            Schema for <c>OAuthTokenListResponseValue</c>:
+            <code>{
+              farmerId: string, # Required. Farmer ID for this OAuth config.
+              authProviderId: string, # Required. ID of the OAuth provider resource containing app information.
+              isValid: boolean, # Optional. An optional flag indicating whether the token is a valid or expired (Default value: true).
+              eTag: string, # Optional. The ETag value to implement optimistic concurrency.
+              createdDateTime: string (ISO 8601 Format), # Optional. Date-time when resource was created, sample format: yyyy-MM-ddTHH:mm:ssZ.
+              modifiedDateTime: string (ISO 8601 Format), # Optional. Date-time when resource was last modified, sample format: yyyy-MM-ddTHH:mm:ssZ.
+            }
+            </code></remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+        <example>
+            This sample shows how to call GetOAuthTokensAsync and parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            await foreach (var data in client.GetOAuthTokensAsync())
+            {
+                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("farmerId").ToString());
+                Console.WriteLine(result.GetProperty("authProviderId").ToString());
+            }
+            ]]></code>
+            This sample shows how to call GetOAuthTokensAsync with all parameters, and how to parse the result.
+            <code><![CDATA[
+            var credential = new DefaultAzureCredential();
+            var endpoint = new Uri("<https://my-service.azure.com>");
+            var client = new OAuthTokensClient(endpoint, credential);
+            
+            await foreach (var data in client.GetOAuthTokensAsync(new String[]{"<authProviderIds>"}, new String[]{"<farmerIds>"}, true, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, 1234, "<skipToken>"))
+            {
+                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+                Console.WriteLine(result.GetProperty("farmerId").ToString());
+                Console.WriteLine(result.GetProperty("authProviderId").ToString());
+                Console.WriteLine(result.GetProperty("isValid").ToString());
+                Console.WriteLine(result.GetProperty("eTag").ToString());
+                Console.WriteLine(result.GetProperty("createdDateTime").ToString());
+                Console.WriteLine(result.GetProperty("modifiedDateTime").ToString());
+            }
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Pipeline">

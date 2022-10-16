@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="clusterDefinition" Type="Azure.ResourceManager.HDInsight.Models.HDInsightClusterDefinition" />
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.HDInsightClusterDefinition</ReturnType>
@@ -69,6 +72,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -89,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -109,6 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -129,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -149,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.HDInsightComputeIsolationProperties</ReturnType>
@@ -169,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.HDInsight.Models.HDInsightClusterRole&gt;</ReturnType>
@@ -189,32 +198,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.HDInsight.Models.ConnectivityEndpoint&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The list of connectivity endpoints. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CreatedDate">
-      <MemberSignature Language="C#" Value="public string CreatedDate { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string CreatedDate" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.HDInsight.Models.HDInsightClusterProperties.CreatedDate" />
-      <MemberSignature Language="VB.NET" Value="Public Property CreatedDate As String" />
-      <MemberSignature Language="F#" Value="member this.CreatedDate : string with get, set" Usage="Azure.ResourceManager.HDInsight.Models.HDInsightClusterProperties.CreatedDate" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The date on which the cluster was created. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -249,6 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.HDInsightDiskEncryptionProperties</ReturnType>
@@ -269,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResponseError&gt;</ReturnType>
@@ -289,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.ExcludedServicesConfig</ReturnType>
@@ -309,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -329,6 +324,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.KafkaRestProperties</ReturnType>
@@ -349,6 +345,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -369,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.HDInsightClusterNetworkProperties</ReturnType>
@@ -389,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.HDInsight.Models.HDInsightOSType&gt;</ReturnType>
@@ -409,6 +408,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.HDInsight.HDInsightPrivateEndpointConnectionData&gt;</ReturnType>
@@ -429,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.HDInsight.Models.HDInsightPrivateLinkConfiguration&gt;</ReturnType>
@@ -449,6 +450,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.HDInsight.Models.HDInsightClusterProvisioningState&gt;</ReturnType>
@@ -469,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -489,6 +492,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HDInsight.Models.HDInsightSecurityProfile</ReturnType>
@@ -509,6 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.HDInsight.Models.HDInsightStorageAccountInfo&gt;</ReturnType>
@@ -529,6 +534,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HDInsight</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.HDInsight.Models.HDInsightTier&gt;</ReturnType>

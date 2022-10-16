@@ -1,0 +1,57 @@
+<Type Name="PartialIdAssetReference" FullName="Azure.ResourceManager.MachineLearning.Models.PartialIdAssetReference">
+  <TypeSignature Language="C#" Value="public class PartialIdAssetReference : Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PartialIdAssetReference extends Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.MachineLearning.Models.PartialIdAssetReference" />
+  <TypeSignature Language="VB.NET" Value="Public Class PartialIdAssetReference&#xA;Inherits PartialAssetReferenceBase" />
+  <TypeSignature Language="F#" Value="type PartialIdAssetReference = class&#xA;    inherit PartialAssetReferenceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.MachineLearning.Models.PartialAssetReferenceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Reference to an asset via its ARM resource ID. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PartialIdAssetReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MachineLearning.Models.PartialIdAssetReference.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of PartialIdAssetReference. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssetId">
+      <MemberSignature Language="C#" Value="public string AssetId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssetId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.MachineLearning.Models.PartialIdAssetReference.AssetId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssetId As String" />
+      <MemberSignature Language="F#" Value="member this.AssetId : string with get, set" Usage="Azure.ResourceManager.MachineLearning.Models.PartialIdAssetReference.AssetId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MachineLearning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> ARM resource ID of the asset. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
